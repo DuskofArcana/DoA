@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+[class^="c-"]:before {
+    color: var(--accent);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.c-mitri:before {
+    content: "Mitridato: ";
+}
+
+.c-mitri:after {
+    content: "Cura el estado de Envenenamiento.";
+}
