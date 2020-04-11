@@ -1,0 +1,11 @@
+.usergroup-group-canalizador .topictitle-container .topictitle-image img {  border: 2px solid var(--canalizador)!important; }
+.usergroup-group-guardian .topictitle-container .topictitle-image img {  border: 2px solid var(--guardian)!important; }
+.usergroup-group-hostigador .topictitle-container .topictitle-image img {  border: 2px solid var(--hostigador)!important; }
+.usergroup-group-orador .topictitle-container .topictitle-image img {  border: 2px solid var(--orador)!important; }
+.usergroup-group-inactivo .topictitle-container .topictitle-image img {  border: 2px solid var(--inactivo)!important; }
+
+.usergroup-group-canalizador .topicbuttons span {  color: var(--canalizador); }
+.usergroup-group-guardian .topicbuttons span {  color: var(--guardian); }
+.usergroup-group-hostigador .topicbuttons span {  color: var(--hostigador); }
+.usergroup-group-orador .topicbuttons span { color: var(--orador); }
+.usergroup-group-inactivo .topicbuttons span {  bcolor: var(--inactivo); }
