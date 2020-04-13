@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tienda</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<style>
+		body {
+			position: relative;
+			display: flex;
+		}
+
+		aside {
+			width: 350px;
+			height: 100vh;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+
+
+		}
+		#items {
+			width: calc(100vw - 350px);
+			box-sizing: border-box;
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		textarea {
+			width: 98%;
+			height: 130px
+		}
+		aside a, aside textarea {
+			margin-bottom: 10px
+		}
+
+		.objeto {
+			display: flex;
+			width: 130px;
+			flex-direction: column;
+			margin-right: 15px
+		}
+		.objeto span {
+			display: flex;
+			width: 100%;
+			margin-bottom: 5px;
+		}
+		label {
+		}
+		.objeto .ob-id {
+			font-weight: bold;
+		}
+		.ob-id, .ob-nombre {
+			display: inline-block;
+			margin-right: 4px;
+			line-height: 12px
+		}
+		.cantidad {
+			height: 1.25rem !important;
+			width: auto;
+		}
+		.check span {
+			padding-left: 0px !important
+		}
+		.check {
+			display: flex;
+		}
+		.check input#checalo:check ~
+	</style>
+</head>
+<body>
+	<div id="items">
+<!-- 		<div class="objeto">
+			<span>
+				<div class="ob-id">1</div>
+				<div class="ob-nombre">Espada</div>
+			</span>
+			<span>
+				<label class="check">
+		        	<input type="checkbox" class="filled-in checalo" />
+		        	<span></span>
+		        	<input type="number" class="cantidad" min="1" max="99" value="1" disabled reset/>
+		        	
+	      		</label>
+			</span>
+		</div> -->
+	</div>
+	<aside class="z-depth-4 ">
+		<textarea name="texto" id="texto" class="materialize-textarea"></textarea>
+		<a class="waves-effect waves-light btn green accent-3">Obtener</a>
+		<a class="waves-effect waves-light btn blue accent-3">Copiar</a>
+		<a class="waves-effect waves-light btn red darken-4">Limpiar</a>
+	</aside>
+	<script>
+        $(document).ready(function() {
+	        var url = 'https://spreadsheets.google.com/feeds/list/1bCddYVOaAla3CMAOT-uEJhHVLcO1Sd8bHBa8wXbbZ18/od6/public/values?alt=json';
+	    	$.getJSON(url, function(data) {
+	    		console.log(data);
+	    		var entradas = data.feed.openSearch$totalResults.$t;
+	    		for (repite = 0; repite < entradas; repite++) {
+					$("#items").append('<div class="objeto"> <span> <div class="ob-id">' + repite + '</div> <div class="ob-nombre">' + data.feed.entry[repite].gsx$nombre.$t + '</div> </span> <span> <label class="check"> <input type="checkbox" class="filled-in checalo" /> <span></span> <input type="number" class="cantidad" min="1" max="99" value="1" disabled reset/> </label> </span> </div>');
+				};
+	   		});
+	   		$('input[type=checkbox]').on('change', function() {
+            	if ($(this).is(':checked')) {
+                	$(this).siblings("input").removeAttr("disabled");
+             	} else {
+             		$(this).siblings("input").val('1');
+                	$(this).siblings("input").attr("disabled", "");
+             	}
+        	});
+    	})
+
+	</script>
+</body>
+</html>
