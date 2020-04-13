@@ -15,7 +15,7 @@
 		}
 
 		aside {
-			width: 350px;
+			width: 400px;
 			height: 100vh;
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
@@ -23,11 +23,11 @@
 			padding: 20px;
 			display: flex;
 			flex-direction: column;
-
-
+			position: fixed;
+    		right: 0;
 		}
 		#items {
-			width: calc(100vw - 350px);
+			width: calc(100vw - 400px);
 			box-sizing: border-box;
 			padding: 20px;
 			display: flex;
@@ -35,9 +35,10 @@
 		}
 		textarea {
 			width: 98%;
-			height: 130px
+			height: 70vh !important;
+			overflow: auto !important;
 		}
-		aside a, aside textarea {
+		aside button, aside textarea {
 			margin-bottom: 10px
 		}
 
@@ -56,6 +57,13 @@
 		}
 		.objeto .ob-id {
 			font-weight: bold;
+		    background: #060606;
+		    color: white;
+		    display: table;
+		    padding: 3px;
+		    font-size: 12px;
+		    width: 20px;
+		    text-align: center;
 		}
 		.ob-id, .ob-nombre {
 			display: inline-block;
@@ -72,12 +80,15 @@
 		.check {
 			display: flex;
 		}
-		.check input#checalo:check ~
+		#copy, .ob-indice {
+			display: none
+		}
+
 	</style>
 </head>
 <body>
-<!-- 	<div id="items">
-		<div class="objeto">
+	<div id="items">
+<!-- 		<div class="objeto">
 			<span>
 				<div class="ob-id">1</div>
 				<div class="ob-nombre">Espada</div>
@@ -90,22 +101,22 @@
 		        	
 	      		</label>
 			</span>
-		</div>
-	</div> -->
+		</div> -->
+	</div>
+	<div id="copy"></div>
 	<aside class="z-depth-4 ">
 		<textarea name="texto" id="texto" class="materialize-textarea"></textarea>
-		<a class="waves-effect waves-light btn green accent-3">Obtener</a>
-		<a class="waves-effect waves-light btn blue accent-3">Copiar</a>
-		<a class="waves-effect waves-light btn red darken-4">Limpiar</a>
+		<button class="waves-effect waves-light btn" onclick="obtener()">Obtener</button>
+		<button class="waves-effect waves-light btn blue accent-3" onclick="copiar()">Copiar</button>
+		<button class="waves-effect waves-light btn red darken-2" onclick="limpiar()">Limpiar</button>
 	</aside>
 	<script>
         $(document).ready(function() {
         	var url = 'https://spreadsheets.google.com/feeds/list/1bCddYVOaAla3CMAOT-uEJhHVLcO1Sd8bHBa8wXbbZ18/od6/public/values?alt=json';
     		$.getJSON(url, function(data) {
-	    		console.log(data);
 	    		var entradas = data.feed.openSearch$totalResults.$t;
 	    		for (repite = 0; repite < entradas; repite++) {
-					$("#items").append('<div class="objeto"> <span> <div class="ob-id">' + repite + '</div> <div class="ob-nombre">' + data.feed.entry[repite].gsx$nombre.$t + '</div> </span> <span> <label class="check"> <input type="checkbox" class="filled-in checalo" /> <span></span> <input type="number" class="cantidad" min="1" max="99" value="1" disabled /> </label> </span> </div>');
+					$("#items").append('<div class="objeto"> <span> <div class="ob-id">' + repite + '</div> <div class="ob-nombre">' + data.feed.entry[repite].gsx$nombre.$t + '</div> </span> <span> <label class="check"> <input type="checkbox" class="filled-in checalo" /> <span></span> <input type="number" class="cantidad" min="1" max="99" value="1" disabled /> <div class="ob-indice">' + repite + '</div> </label> </span> </div>');
 				};
 				$('input[type=checkbox]').on('change', function() {
             		if ($(this).is(':checked')) {
@@ -117,7 +128,33 @@
         		});
    			});
     	});
-
+	   	function limpiar(){
+	   		$('textarea').val("");
+			if ($('input[type=checkbox]').is(':checked')) {
+	 			$(".checalo").prop( "checked", false );
+	 			$(".cantidad").val('1');
+	    		$(".cantidad").attr("disabled", "");
+         	}
+        };
+        function copiar () {
+        	$('textarea').select();
+        	document.execCommand("copy")
+        };
+        function obtener() {
+        	$('textarea').val("");
+        	$("#copy").empty();
+        	$('input[type=checkbox]:checked').each(function () {
+        		var indice = $(this).siblings(".ob-indice").text();
+        		var cantidad = $(this).siblings("input").val();
+        		if (cantidad == undefined) {
+                	$("#copy").append('<item indice="'+ indice +'" cantidad="1"></item> <br>')
+            	} else {
+                	$("#copy").append('<item indice="'+ indice +'" cantidad="'+ cantidad +'"></item> <br>')
+            	}
+        	});
+        	var copia = $("#copy").html();
+        	$("textarea").val(copia.replace(/\<br>/g, "\n"));
+        }
 	</script>
 </body>
 </html>
