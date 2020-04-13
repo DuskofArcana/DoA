@@ -76,8 +76,8 @@
 	</style>
 </head>
 <body>
-	<div id="items">
-<!-- 		<div class="objeto">
+<!-- 	<div id="items">
+		<div class="objeto">
 			<span>
 				<div class="ob-id">1</div>
 				<div class="ob-nombre">Espada</div>
@@ -86,12 +86,12 @@
 				<label class="check">
 		        	<input type="checkbox" class="filled-in checalo" />
 		        	<span></span>
-		        	<input type="number" class="cantidad" min="1" max="99" value="1" disabled reset/>
+		        	<input type="number" class="cantidad" min="1" max="99" value="1" disabled />
 		        	
 	      		</label>
 			</span>
-		</div> -->
-	</div>
+		</div>
+	</div> -->
 	<aside class="z-depth-4 ">
 		<textarea name="texto" id="texto" class="materialize-textarea"></textarea>
 		<a class="waves-effect waves-light btn green accent-3">Obtener</a>
@@ -100,23 +100,23 @@
 	</aside>
 	<script>
         $(document).ready(function() {
-	        var url = 'https://spreadsheets.google.com/feeds/list/1bCddYVOaAla3CMAOT-uEJhHVLcO1Sd8bHBa8wXbbZ18/od6/public/values?alt=json';
-	    	$.getJSON(url, function(data) {
+        	var url = 'https://spreadsheets.google.com/feeds/list/1bCddYVOaAla3CMAOT-uEJhHVLcO1Sd8bHBa8wXbbZ18/od6/public/values?alt=json';
+    		$.getJSON(url, function(data) {
 	    		console.log(data);
 	    		var entradas = data.feed.openSearch$totalResults.$t;
 	    		for (repite = 0; repite < entradas; repite++) {
-					$("#items").append('<div class="objeto"> <span> <div class="ob-id">' + repite + '</div> <div class="ob-nombre">' + data.feed.entry[repite].gsx$nombre.$t + '</div> </span> <span> <label class="check"> <input type="checkbox" class="filled-in checalo" /> <span></span> <input type="number" class="cantidad" min="1" max="99" value="1" disabled reset/> </label> </span> </div>');
+					$("#items").append('<div class="objeto"> <span> <div class="ob-id">' + repite + '</div> <div class="ob-nombre">' + data.feed.entry[repite].gsx$nombre.$t + '</div> </span> <span> <label class="check"> <input type="checkbox" class="filled-in checalo" /> <span></span> <input type="number" class="cantidad" min="1" max="99" value="1" disabled /> </label> </span> </div>');
 				};
-	   		});
-	   		$('input[type=checkbox]').on('change', function() {
-            	if ($(this).is(':checked')) {
-                	$(this).siblings("input").removeAttr("disabled");
-             	} else {
-             		$(this).siblings("input").val('1');
-                	$(this).siblings("input").attr("disabled", "");
-             	}
-        	});
-    	})
+				$('input[type=checkbox]').on('change', function() {
+            		if ($(this).is(':checked')) {
+                		$(this).siblings("input").removeAttr("disabled");
+             		} else {
+             			$(this).siblings("input").val('1');
+                		$(this).siblings("input").attr("disabled", "");
+             		}
+        		});
+   			});
+    	});
 
 	</script>
 </body>
