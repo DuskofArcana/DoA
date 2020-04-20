@@ -1,11 +1,87 @@
+.usergroup-group-canalizador .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--canalizador), #777);}
+.usergroup-group-guardian .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--guardian), #777);}
+.usergroup-group-hostigador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--hostigador), #777);}
+.usergroup-group-orador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--orador), #777);}
+.usergroup-group-inactivo .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--inactivo), #777);}
+.usergroup-group-administradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--administradores), #777);}
+.usergroup-group-narradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--narradores), #777);}
+
 .usergroup-group-canalizador .topictitle-container .topictitle-image img {  border: 2px solid var(--canalizador)!important; }
 .usergroup-group-guardian .topictitle-container .topictitle-image img {  border: 2px solid var(--guardian)!important; }
 .usergroup-group-hostigador .topictitle-container .topictitle-image img {  border: 2px solid var(--hostigador)!important; }
 .usergroup-group-orador .topictitle-container .topictitle-image img {  border: 2px solid var(--orador)!important; }
 .usergroup-group-inactivo .topictitle-container .topictitle-image img {  border: 2px solid var(--inactivo)!important; }
+.usergroup-group-administradores .topictitle-container .topictitle-image img {  border: 2px solid var(--administradores)!important; }
+.usergroup-group-narradores .topictitle-container .topictitle-image img {  border: 2px solid var(--narradores)!important; }
 
 .usergroup-group-canalizador .topicbuttons span {  color: var(--canalizador); }
 .usergroup-group-guardian .topicbuttons span {  color: var(--guardian); }
 .usergroup-group-hostigador .topicbuttons span {  color: var(--hostigador); }
 .usergroup-group-orador .topicbuttons span { color: var(--orador); }
-.usergroup-group-inactivo .topicbuttons span {  bcolor: var(--inactivo); }
+.usergroup-group-inactivo .topicbuttons span {  color: var(--inactivo); }
+.usergroup-group-administradores .topicbuttons span {  color: var(--administradores); }
+.usergroup-group-narradores .topicbuttons span {  color: var(--narradores); }
+
+.usergroup-group-canalizador .postprofile-field-content {  color: var(--canalizador); }
+.usergroup-group-guardian .postprofile-field-content {  color: var(--guardian); }
+.usergroup-group-hostigador .postprofile-field-content {  color: var(--hostigador); }
+.usergroup-group-orador .postprofile-field-content { color: var(--orador); }
+.usergroup-group-inactivo .postprofile-field-content {  color: var(--inactivo); }
+.usergroup-group-administradores .postprofile-field-content {  color: var(--administradores); }
+.usergroup-group-narradores .postprofile-field-content {  color: var(--narradores); }
+
+.usergroup-group-canalizador .postprofile-contact a:active, .usergroup-group-canalizador .postprofile-contact a:link, .usergroup-group-canalizador .postprofile a:visited, .usergroup-group-canalizador .postprofile dt.author a{  color: var(--canalizador); }
+.usergroup-group-guardian .postprofile a:active, .usergroup-group-guardian .postprofile a:link, .usergroup-group-guardian .postprofile a:visited,  .usergroup-group-guardian.postprofile dt.author a {  color: var(--guardian); }
+.usergroup-group-hostigador .postprofile-contact a:active, .usergroup-group-hostigador .postprofile-contact a:link, .usergroup-group-hostigador .postprofile-contact a:visited, .usergroup-group-hostigador .postprofile-contact dt.author a {  color: var(--hostigador); }
+.usergroup-group-orador .postprofile a:active, .usergroup-group-orador  .postprofile a:link, .usergroup-group-orador  .postprofile a:visited, .usergroup-group-orador  .postprofile dt.author a { color: var(--orador); }
+.usergroup-group-inactivo .postprofile a:active, .usergroup-group-inactivo .postprofile a:link, .usergroup-group-inactivo .postprofile a:visited, .usergroup-group-inactivo .postprofile dt.author a { color: var(--inactivo); }
+
+.usergroup-group-canalizador .postprofilerankicon:before {  color: var(--canalizador); content: '\eb57';}
+.usergroup-group-guardian .postprofilerankicon:before {  color: var(--guardian); content: '\e075'; font-family:'saturnicons';}
+.usergroup-group-hostigador .postprofilerankicon:before {  color: var(--hostigador); content: '\ec74';}
+.usergroup-group-orador .postprofilerankicon:before { color: var(--orador); content: '\e907';}
+.usergroup-group-inactivo .postprofilerankicon:before {  color: var(--inactivo); content: '\e2f9'; font-family:'saturnicons';}
+.usergroup-group-administradores .postprofilerankicon:before { color: var(--administradores); }
+.usergroup-group-narradores .postprofilerankicon:before { color: var(--narradores);}
+
+body#phpbb.userprofile-group-canalizador .profileicon { border: 1px solid var(--canalizador);}
+body#phpbb.userprofile-group-guardian .profileicon  { border: 1px solid var(--guardian);}
+body#phpbb.userprofile-group-hostigador .profileicon  { border: 1px solid var(--hostigador);}
+body#phpbb.userprofile-group-orador .profileicon  { border: 1px solid var(--orador);}
+body#phpbb.userprofile-group-inactivo .profileicon { border: 1px solid var(--inactivo);} 
+
+body#phpbb.userprofile-group-canalizador .profileicon span:after {  color: var(--canalizador); content: '\eb57';}
+body#phpbb.userprofile-group-guardian .profileicon span:after {  color: var(--guardian); content: '\e075'; font-family:'saturnicons';}
+body#phpbb.userprofile-group-hostigador .profileicon span:after {  color: var(--hostigador); content: '\ec74';}
+body#phpbb.userprofile-group-orador .profileicon span:after { color: var(--orador); content: '\e907';}
+body#phpbb.userprofile-group-inactivo .profileicon span:after {  color: var(--inactivo); content: '\e2f9'; font-family:'saturnicons';}  
+
+body#phpbb.userprofile-group-canalizador .profilecontent { color: var(--canalizador);}
+body#phpbb.userprofile-group-guardian .profilecontent  { color: var(--guardian);}
+body#phpbb.userprofile-group-hostigador .profilecontent  { color: var(--hostigador);}
+body#phpbb.userprofile-group-orador .profilecontent  { color: var(--orador);}
+body#phpbb.userprofile-group-inactivo .profilecontent { color: var(--inactivo);} 
+
+body#phpbb.userprofile-group-canalizador progress[value] { color: var(--canalizador);}
+body#phpbb.userprofile-group-guardian progress[value] { color: var(--guardian);}
+body#phpbb.userprofile-group-hostigador progress[value]  { color: var(--hostigador);}
+body#phpbb.userprofile-group-orador progress[value]  { color: var(--orador);}
+body#phpbb.userprofile-group-inactivo progress[value] { color: var(--inactivo);} 
+
+body#phpbb.userprofile-group-canalizador .profilelinks { color: var(--canalizador);}
+body#phpbb.userprofile-group-guardian .profilelinks { color: var(--guardian);}
+body#phpbb.userprofile-group-hostigador .profilelinks  { color: var(--hostigador);}
+body#phpbb.userprofile-group-orador .profilelinks  { color: var(--orador);}
+body#phpbb.userprofile-group-inactivo .profilelinks { color: var(--inactivo);}
+
+body#phpbb.userprofile-group-canalizador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--accent);}
+body#phpbb.userprofile-group-guardian progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--guardian);}
+body#phpbb.userprofile-group-hostigador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--hostigador);}
+body#phpbb.userprofile-group-orador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--orador);}
+body#phpbb.userprofile-group-inactivo progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--inactivo);}  
+
+body#phpbb.userprofile-group-canalizador progress[value]::-webkit-progress-value {background: var(--canalizador);}
+body#phpbb.userprofile-group-guardian progress[value]::-webkit-progress-value {background: var(--guardian);}
+body#phpbb.userprofile-group-hostigador progress[value]::-webkit-progress-value {background: var(--hostigador);}
+body#phpbb.userprofile-group-orador progress[value]::-webkit-progress-value {background: var(--orador);}
+body#phpbb.userprofile-group-inactivo progress[value]::-webkit-progress-value {background: var(--inactivo);}
