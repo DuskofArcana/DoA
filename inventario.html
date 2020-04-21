@@ -50,6 +50,7 @@
 		}
 		.objeto span {
 			display: flex;
+			flex-direction: column;
 			width: 100%;
 			margin-bottom: 5px;
 		}
@@ -59,15 +60,13 @@
 			font-weight: bold;
 		    background: #060606;
 		    color: white;
-		    display: table;
 		    padding: 3px;
 		    font-size: 12px;
-		    width: 20px;
 		    text-align: center;
+		    margin-bottom: 5px;
 		}
 		.ob-id, .ob-nombre {
 			display: inline-block;
-			margin-right: 4px;
 			line-height: 12px
 		}
 		.cantidad {
@@ -75,7 +74,7 @@
 			width: auto;
 		}
 		.check span {
-			padding-left: 0px !important
+			width: auto
 		}
 		.check {
 			display: flex;
@@ -114,9 +113,13 @@
         $(document).ready(function() {
         	var url = 'https://spreadsheets.google.com/feeds/list/1bCddYVOaAla3CMAOT-uEJhHVLcO1Sd8bHBa8wXbbZ18/od6/public/values?alt=json';
     		$.getJSON(url, function(data) {
+    			console.log(data);
 	    		var entradas = data.feed.openSearch$totalResults.$t;
 	    		for (repite = 0; repite < entradas; repite++) {
-					$("#items").append('<div class="objeto"> <span> <div class="ob-id">' + repite + '</div> <div class="ob-nombre">' + data.feed.entry[repite].gsx$nombre.$t + '</div> </span> <span> <label class="check"> <input type="checkbox" class="filled-in checalo" /> <span></span> <input type="number" class="cantidad" min="1" max="99" value="1" disabled /> <div class="ob-indice">' + repite + '</div> </label> </span> </div>');
+	    			var indice = data.feed.entry[repite].gsx$indice.$t;
+	    			if (indice || undefined ) {
+						$("#items").append('<div class="objeto"> <span> <div class="ob-id">' + indice + '</div> <div class="ob-nombre">' + data.feed.entry[repite].gsx$nombre.$t + '</div> </span> <span> <label class="check"> <input type="checkbox" class="filled-in checalo" /> <span></span> <input type="number" class="cantidad" min="1" max="99" value="1" disabled /> <div class="ob-indice">' + indice + '</div> </label> </span> </div>');
+					};
 				};
 				$('input[type=checkbox]').on('change', function() {
             		if ($(this).is(':checked')) {
