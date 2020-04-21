@@ -43,3 +43,71 @@
 .usergroup-group-inactivo .postprofilerankicon:before {  color: var(--inactivo); content: '\e2f9'; font-family:'saturnicons';}
 .usergroup-group-administradores .postprofilerankicon:before { color: var(--administradores); }
 .usergroup-group-narradores .postprofilerankicon:before { color: var(--narradores);}
+
+.userprofile-group-canalizador .profilelinks a{ color: var(--canalizador);}
+.userprofile-group-guardian .profilelinks a { color: var(--guardian);}
+.userprofile-group-hostigador .profilelinks a { color: var(--hostigador);}
+.userprofile-group-orador .profilelinks a { color: var(--orador);}
+.userprofile-group-inactivo .profilelinks a{ color: var(--inactivo);}
+
+.userprofile-group-canalizador .profileicon { border: 1px solid var(--canalizador);}
+.userprofile-group-guardian .profileicon  { border: 1px solid var(--guardian);}
+.userprofile-group-hostigador .profileicon  { border: 1px solid var(--hostigador);}
+.userprofile-group-orador .profileicon  { border: 1px solid var(--orador);}
+.userprofile-group-inactivo .profileicon { border: 1px solid var(--inactivo);} 
+
+.userprofile-group-canalizador .profileicon span:after {  color: var(--canalizador); content: '\eb57';}
+.userprofile-group-guardian .profileicon span:after {  color: var(--guardian); content: '\e075'; font-family:'saturnicons';}
+.userprofile-group-hostigador .profileicon span:after {  color: var(--hostigador); content: '\ec74';}
+.userprofile-group-orador .profileicon span:after { color: var(--orador); content: '\e907';}
+.userprofile-group-inactivo .profileicon span:after {  color: var(--inactivo); content: '\e2f9'; font-family:'saturnicons';}  
+
+.userprofile-group-canalizador .profilecontent { color: var(--canalizador);}
+.userprofile-group-guardian .profilecontent  { color: var(--guardian);}
+.userprofile-group-hostigador .profilecontent  { color: var(--hostigador);}
+.userprofile-group-orador .profilecontent  { color: var(--orador);}
+.userprofile-group-inactivo .profilecontent { color: var(--inactivo);} 
+
+.userprofile-group-canalizador progress[value] { color: var(--canalizador);}
+.userprofile-group-guardian progress[value] { color: var(--guardian);}
+.userprofile-group-hostigador progress[value]  { color: var(--hostigador);}
+.userprofile-group-orador progress[value]  { color: var(--orador);}
+.userprofile-group-inactivo progress[value] { color: var(--inactivo);} 
+
+.userprofile-group-canalizador progress[value]::-webkit-progress-value {background: var(--canalizador);}
+.userprofile-group-guardian progress[value]::-webkit-progress-value {background: var(--guardian);}
+.userprofile-group-hostigador progress[value]::-webkit-progress-value {background: var(--hostigador);}
+.userprofile-group-orador progress[value]::-webkit-progress-value {background: var(--orador);}
+.userprofile-group-inactivo progress[value]::-webkit-progress-value {background: var(--inactivo);}
+
+.userprofile-group-canalizador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--canalizador);}
+.userprofile-group-guardian progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--guardian);}
+.userprofile-group-hostigador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--hostigador);}
+.userprofile-group-orador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--orador);}
+.userprofile-group-inactivo progress[value]::-webkit-progress-bar {bborder-bottom: 1px solid var(--inactivo);}
+
+.userprofile-group-canalizador rpghab:before { color: var(--canalizador);}
+.userprofile-group-guardian rpghab:before { color: var(--guardian);}
+.userprofile-group-hostigador rpghab:before  { color: var(--hostigador);}
+.userprofile-group-orador rpghab:before { color: var(--orador);}
+.userprofile-group-inactivo rpghab:before { color: var(--inactivo);} 
+
+.userprofile-group-canalizador .rpginv strong  { color: var(--canalizador);}
+.userprofile-group-guardian .rpginv strong  { color: var(--guardian);}
+.userprofile-group-hostigador .rpginv strong  { color: var(--hostigador);}
+.userprofile-group-orador .rpginv strong  { color: var(--orador);}
+.userprofile-group-inactivo .rpginv strong  { color: var(--inactivo);} 
+
+.userprofile-group-canalizador .posterank  { color: var(--canalizador);}
+.userprofile-group-guardian .posterank  { color: var(--guardian);}
+.userprofile-group-hostigador .posterank { color: var(--hostigador);}
+.userprofile-group-orador .posterank { color: var(--orador);}
+.userprofile-group-inactivo .posterank { color: var(--inactivo);} 
+
+.userprofile-group-administrador .rpginv::-webkit-scrollbar-thumb {background: var(--accent);}
+.userprofile-group-narrador .rpginv::-webkit-scrollbar-thumb{background: var(--accent);}
+.userprofile-group-canalizador .rpginv::-webkit-scrollbar-thumb {background: var(--canalizador);}
+.userprofile-group-guardian .rpginv::-webkit-scrollbar-thumb {background: var(--guardian);}
+.userprofile-group-hostigador .rpginv::-webkit-scrollbar-thumb {background: var(--hostigador);}
+.userprofile-group-orador .rpginv::-webkit-scrollbar-thumb{background: var(--orador);}
+.userprofile-group-inactivo .rpginv::-webkit-scrollbar-thumb {background: var(--inactivo);}
