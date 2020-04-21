@@ -68,7 +68,11 @@ body#phpbb.userprofile-group-hostigador progress[value]  { color: var(--hostigad
 body#phpbb.userprofile-group-orador progress[value]  { color: var(--orador);}
 body#phpbb.userprofile-group-inactivo progress[value] { color: var(--inactivo);} 
 
-
+body#phpbb.userprofile-group-canalizador .profilelinks { color: var(--canalizador);}
+body#phpbb.userprofile-group-guardian .profilelinks { color: var(--guardian);}
+body#phpbb.userprofile-group-hostigador .profilelinks  { color: var(--hostigador);}
+body#phpbb.userprofile-group-orador .profilelinks  { color: var(--orador);}
+body#phpbb.userprofile-group-inactivo .profilelinks { color: var(--inactivo);}
 
 body#phpbb.userprofile-group-canalizador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--accent);}
 body#phpbb.userprofile-group-guardian progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--guardian);}
