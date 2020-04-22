@@ -111,3 +111,9 @@
 .userprofile-group-hostigador .rpginv::-webkit-scrollbar-thumb {background: var(--hostigador);}
 .userprofile-group-orador .rpginv::-webkit-scrollbar-thumb{background: var(--orador);}
 .userprofile-group-inactivo .rpginv::-webkit-scrollbar-thumb {background: var(--inactivo);}
+
+.userprofile-group-canalizador .postprofile2 .postprofile-field.postprofile-field-edad:after  { color: var(--canalizador);}
+.userprofile-group-guardian .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--guardian);}
+.userprofile-group-hostigador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--hostigador);}
+.userprofile-group-orador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--orador);}
+.userprofile-group-inactivo .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--inactivo);}  
