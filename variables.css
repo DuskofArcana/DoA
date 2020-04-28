@@ -1034,3 +1034,36 @@ pjhab span {
    font-weight: bold;
    text-transform: uppercase;
 } 
+
+.usergroup-group-canalizador .expgroup span:after{  color: var(--canalizador); content: '\eb57';}
+.usergroup-group-guardian .expgroup span:after{  color: var(--guardian); content: '\e075'; font-family:'saturnicons';}
+.usergroup-group-hostigador .expgroup span:after {  color: var(--hostigador); content: '\ec74';}
+.usergroup-group-orador .expgroup span:after { color: var(--orador); content: '\e907';}
+.usergroup-group-inactivo .expgroup span:after{  color: var(--inactivo); content: '\e2f9'; font-family:'saturnicons';}
+
+
+.usergroup-group-canalizador .expiname{  color: var(--canalizador); }
+.usergroup-group-guardian .expiname {  color: var(--guardian); }
+.usergroup-group-hostigador .expiname {  color: var(--hostigador); }
+.usergroup-group-orador .expiname { color: var(--orador); }
+.usergroup-group-inactivo .expiname{  color: var(--inactivo); }
+
+.usergroup-group-canalizador .expdatos1.tambisep{  color: var(--canalizador); }
+.usergroup-group-guardian .expdatos1.tambisep {  color: var(--guardian); }
+.usergroup-group-hostigador .expdatos1.tambisep {  color: var(--hostigador); }
+.usergroup-group-orador .expdatos1.tambisep{ color: var(--orador); }
+.usergroup-group-inactivo .expdatos1.tambisep{  color: var(--inactivo); }
+
+
+.usergroup-group-canalizador pjhab:before{  color: var(--canalizador); }
+.usergroup-group-guardian pjhab:before{  color: var(--guardian); }
+.usergroup-group-hostigador pjhab:before {  color: var(--hostigador); }
+.usergroup-group-orador pjhab:before { color: var(--orador); }
+.usergroup-group-inactivo pjhab:before{  color: var(--inactivo); }
+
+
+.usergroup-group-canalizador .pjfstats strong{  color: var(--canalizador); }
+.usergroup-group-guardian .pjfstats strong{  color: var(--guardian); }
+.usergroup-group-hostigador .pjfstats strong {  color: var(--hostigador); }
+.usergroup-group-orador .pjfstats strong{ color: var(--orador); }
+.usergroup-group-inactivo .pjfstats strong{  color: var(--inactivo); }
