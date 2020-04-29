@@ -92,7 +92,7 @@
 .userprofile-group-guardian progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--guardian);}
 .userprofile-group-hostigador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--hostigador);}
 .userprofile-group-orador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--orador);}
-.userprofile-group-inactivo progress[value]::-webkit-progress-bar {bborder-bottom: 1px solid var(--inactivo);}
+.userprofile-group-inactivo progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--inactivo);}
 
 .userprofile-group-canalizador rpghab:before { color: var(--canalizador);}
 .userprofile-group-guardian rpghab:before { color: var(--guardian);}
@@ -581,6 +581,224 @@ justify-content: center;
   padding-bottom: 8px;
   text-align: right;
 }*/
+
+
+.combatpvre br {
+    display:none
+}
+ .combatediv{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px
+}
+.combateficha{
+    width:260px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0 10px
+}
+.pjdatos{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center
+}
+.pjname{
+    font-family:Poppins;
+    font-size:10pt;
+    font-weight:700;
+    text-align:center;
+    text-transform:uppercase
+}
+.pjname:before{
+    color:var(--accent);
+    content:'\ebef';
+    font-family:honeybee;
+    font-size:20px;
+    width:30px;
+    height:30px;
+    padding:5px;
+    border-radius:50%;
+    border:1px solid var(--accent);
+    display:block;
+    line-height:32px;
+    margin:0 auto 6px
+}
+.pjnivel{
+    font-family:Roboto Condensed;
+    font-size:6.5pt;
+    font-weight:400;
+    letter-spacing:1px;
+    line-height:6.5pt;
+    text-transform:uppercase;
+    text-align:center;
+    position:relative
+}
+.pjstats{
+    display:flex;
+    width:100%;
+    justify-content:space-evenly;
+    font-family:Roboto Condensed;
+    font-size:6.5pt;
+    font-weight:400;
+    justify-content:space-evenly;
+    letter-spacing:1px;
+    margin:auto;
+    text-align:center;
+    text-transform:uppercase;
+    border-top:1px solid #1c1c1c;
+    border-bottom:1px solid #1c1c1c;
+    padding:5px;
+    margin:10px 0
+}
+.pjstats strong{
+    color:var(--accent);
+    margin-right:1px
+}
+.pjstats strong:before{
+    color:#424140;
+    content:"\f111";
+    font-family:FontAwesome;
+    font-size:3px;
+    position:relative
+}
+.pjstats strong:first-child:before{
+    display:none
+}
+progress[value]{
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    background:0 0;
+    color:var(--accent);
+    height:3px;
+    line-height:120%;
+    margin:8px 0 0 8px;
+    position:relative;
+    width:220px
+}
+.combatpvre progress[value]{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:0 0;
+    color:var(--accent);
+    width:200px;
+    position:relative;
+    line-height:120%;
+    margin:5px 0 0 8px;
+    height:3px
+}
+.combatpvre progress[value]::-webkit-progress-value{
+    background:var(--accent)
+}
+.combatediv .pv:before{
+    content:"PV"
+}
+.combatediv .re:before{
+    content:"RE"
+}
+progress:before{
+    font-family:poppins;
+    font-size:8px;
+    font-weight:700;
+    letter-spacing:1px;
+    position:absolute;
+    text-align:left;
+    top:-14px
+}
+.combatpvre span{
+    color:#6e6e6e;
+    font-family:Roboto Condensed;
+    font-size:8px;
+    letter-spacing:1px;
+    position:relative;
+    text-align:right;
+    top:8px
+}
+.combatpvre{
+    display:flex;
+    flex-direction:column
+}
+.combateatq{
+    font-family:Roboto Condensed;
+    font-size:7.5pt;
+    margin:auto;
+    box-sizing:border-box;
+    padding:5px 5px 10px;
+    position:relative;
+    text-transform:uppercase;
+    width:200px
+}
+.combateinfo{
+    width:560px;
+    margin:0 auto;
+    font-family:Fira Sans;
+    font-size:8pt;
+    display:flex
+}
+.combateinfo strong{
+    color:var(--accent);
+    text-transform:uppercase;
+    font-family:Old Standard TT;
+    font-size:7pt
+}
+.combatehab,.combateinv{
+    width:50%;
+    height:120px;
+    overflow:auto;
+    line-height:10pt;
+    margin:0 5px
+}
+.combatehab:before{
+    content:"Habilidades";
+    width:100%;
+    display:block;
+    text-transform:uppercase;
+    font-family:Poppins;
+    font-weight:700;
+    font-size:8pt;
+    border-bottom:1px solid var(--accent);
+    padding-bottom:8px;
+    text-align:right;
+    margin-bottom:5px
+}
+.combateinv:before{
+    content:"Inventario";
+    width:100%;
+    display:block;
+    text-transform:uppercase;
+    font-family:Poppins;
+    font-weight:700;
+    font-size:8pt;
+    border-bottom:1px solid var(--accent);
+    padding-bottom:8px;
+    text-align:right;
+    margin-bottom:5px
+}
+
+.canalizador .pjname:before{color:var(--canalizador);content:"\eb57";font-family:honeybee;border-color:var(--canalizador);font-weight: 400}
+.canalizador .combatpvre progress:before,.canalizador .pjstats strong{color:var(--canalizador)}
+.canalizador .combatpvre progress[value]::-webkit-progress-value{background:var(--canalizador)}
+.canalizador progress::-webkit-progress-bar {border-bottom-color: var(--canalizador) !important;}
+
+.orador .pjname:before{color:var(--orador);content:"\e907";font-family:honeybee;border-color:var(--orador);font-weight: 400}
+.orador .combatpvre progress:before,.orador .pjstats strong{color:var(--orador)}
+.orador .combatpvre progress[value]::-webkit-progress-value{background:var(--orador)}
+.orador progress::-webkit-progress-bar {border-bottom-color: var(--orador) !important;}
+
+.guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400}
+.guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
+.guardian .combatpvre progress[value]::-webkit-progress-value{background:var(--guardian)}
+.guardian progress::-webkit-progress-bar {border-bottom-color: var(--guardian) !important;}
+
+.hostigador .pjname:before{color:var(--hostigador);content:"\ec74";font-family:honeybee;border-color:var(--hostigador);font-weight: 400}
+.hostigador .combatpvre progress:before,.hostigador .pjstats strong{color:var(--hostigador)}
+.hostigador .combatpvre progress[value]::-webkit-progress-value{background:var(--hostigador)}
+.hostigador progress::-webkit-progress-bar {border-bottom-color: var(--hostigador) !important;}
+
 
 /** NPCS **/
 .npc-div1 {
