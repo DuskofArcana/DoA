@@ -583,9 +583,10 @@ justify-content: center;
 }*/
 
 
-.combatpvre br {
+.combatpvre br, .pjstats br {
     display:none
 }
+
  .combatediv{
     display:flex;
     justify-content:center;
@@ -657,16 +658,19 @@ justify-content: center;
     color:var(--accent);
     margin-right:1px
 }
-.pjstats strong:before{
-    color:#424140;
-    content:"\f111";
-    font-family:FontAwesome;
-    font-size:3px;
-    position:relative
+.pjstats strong:before {
+	color: #424140;
+    content: "\f111";
+    font-family: FontAwesome;
+    font-size: 3px;
+    position: relative;
+    top: -2px;
+    right: 4px;
 }
-.pjstats strong:first-child:before{
+.pjstats strong:nth-of-type(1):before {
     display:none
 }
+
 progress[value]{
     -moz-appearance:none;
     -webkit-appearance:none;
@@ -700,7 +704,7 @@ progress[value]{
 .combatediv .re:before{
     content:"RE"
 }
-progress:before{
+.combatediv progress:before{
     font-family:poppins;
     font-size:8px;
     font-weight:700;
