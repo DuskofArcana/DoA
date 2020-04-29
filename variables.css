@@ -752,7 +752,7 @@ justify-content: center;
 
 .expin {
   background: rgba(0,0,0,.7);
-  padding: 40px; 
+    padding: 40px 30px 40px 41px;
   font-family: Fira Sans; 
   font-size: 9pt;
   text-align: justify;
