@@ -117,8 +117,8 @@
 .userprofile-group-hostigador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--hostigador);}
 .userprofile-group-orador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--orador);}
 .userprofile-group-inactivo .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--inactivo);}  
-.usergroup-group-administradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--administradores); }
-.usergroup-group-narradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--narradores);}
+.userprofile-group-administradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--administradores); }
+.userprofile-group-narradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--narradores);}
 
 /** SKILLS ***/
 
