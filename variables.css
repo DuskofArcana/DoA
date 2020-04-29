@@ -360,7 +360,7 @@ font-weight: bold;
 
 
 /** COMBATE **/
-.combateatq {
+/*.combateatq {
 font-family: Roboto Condensed;
     font-size: 7.5pt;
     margin: auto;
@@ -493,12 +493,12 @@ justify-content: center;
     margin-right: 5px;
     position: relative;
     top: -2px;
-}
+}*/
 
-.combatehabsinv::-webkit-scrollbar{width: 1px;}
-.combatehabsinv::-webkit-scrollbar-thumb{background-color: var(--accent);}
+/*.combatehabsinv::-webkit-scrollbar{width: 1px;}
+.combatehabsinv::-webkit-scrollbar-thumb{background-color: var(--accent);}*/
 
-.pjnivel { 
+/*.pjnivel { 
     font-family: Roboto Condensed;
     font-size: 6.5pt;
     font-weight: 400;
@@ -580,7 +580,7 @@ justify-content: center;
   border-bottom: 1px solid var(--accent);
   padding-bottom: 8px;
   text-align: right;
-}
+}*/
 
 /** NPCS **/
 .npc-div1 {
