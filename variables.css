@@ -1068,3 +1068,33 @@ pjhab span {
 .usergroup-group-hostigador .pjfstats strong {  color: var(--hostigador); }
 .usergroup-group-orador .pjfstats strong{ color: var(--orador); }
 .usergroup-group-inactivo .pjfstats strong{  color: var(--inactivo); }
+
+
+/* Habilidades Perfil */
+
+rpghab span {font-family: Roboto Condensed;display: block;text-align: center;text-transform: uppercase;font-size: 9px;letter-spacing: 1px;font-weight: normal;}
+rpghab {display:inline-flex;flex-direction:column;font-family:Poppins;font-size:10px;font-weight:700;line-height:10px;margin-bottom:15px;text-align:center;text-transform:uppercase;width:110px}
+rpghab:before {display:block;font-size:20px;line-height:1.5;position:relative}
+.rpghab {height: 200px;overflow: auto;width: 340px;}
+
+.rpghab .aura:before {content:"\ec0a";font-family:honeybee}
+.rpghab .magica:before {content:"\ec7f";font-family:honeybee}
+.rpghab .refuerzo:before {content:"\ec0f";font-family:honeybee}
+.rpghab .pasiva:before {content:"\ec10";font-family:honeybee}
+.rpghab .debilitamiento:before {content:"\e989";font-family:honeybee}
+.rpghab .defensiva:before {content:"\e140";font-family:saturnicons}
+.rpghab .fisica:before {content:"\eb82";font-family:honeybee}
+.rpghab .default:before {content:"\eb82";font-family:honeybee}
+
+.userprofile-group-guardian .inicial:before {content:"\e075";font-family:saturnicons}
+.userprofile-group-hostigador .inicial:before {content:"\ec74";font-family:honeybee}
+.userprofile-group-orador .inicial:before {content:"\e907";font-family:honeybee}
+.userprofile-group-canalizador .inicial:before {content:"\eb57";font-family:honeybee}
+.userprofile-nogroup .inicial:before {content:"\eb82";font-family:honeybee}
+
+.userprofile-group-guardian rpghab[class]:before {color:var(--guardian)}
+.userprofile-group-hostigador rpghab[class]:before {color:var(--hostigador)}
+.userprofile-group-canalizador rpghab[class]:before {color:var(--canalizador)}
+.userprofile-group-orador rpghab[class]:before {color:var(--orador)}
+.userprofile-group-administradores rpghab[class]:before {color:var(--accent)}
+.userprofile-nogroup rpghab[class]:before {color:var(--inactivo)}
