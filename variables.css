@@ -744,6 +744,7 @@ justify-content: center;
     background-blend-mode: multiply;
     background-image: url(https://i.imgur.com/Zwkhih2.png), linear-gradient(var(--grey), #777);
     background-position: center;
+   background-attachment: fixed;
     margin: auto;
     padding: 35px;
     width: 450px;
