@@ -44,6 +44,14 @@
 .usergroup-group-administradores .postprofilerankicon:before { color: var(--administradores); }
 .usergroup-group-narradores .postprofilerankicon:before { color: var(--narradores);}
 
+.usergroup-group-canalizador .postprofile2 .postprofile-field.postprofile-field-edad:after  { color: var(--canalizador);}
+.usergroup-group-guardian .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--guardian);}
+.usergroup-group-hostigador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--hostigador);}
+.usergroup-group-orador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--orador);}
+.usergroup-group-inactivo .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--inactivo);}  
+.usergroup-group-administradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--administradores); }
+.usergroup-group-narradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--narradores);}
+
 .userprofile-group-canalizador .profilelinks a{ color: var(--canalizador);}
 .userprofile-group-guardian .profilelinks a { color: var(--guardian);}
 .userprofile-group-hostigador .profilelinks a { color: var(--hostigador);}
@@ -111,14 +119,6 @@
 .userprofile-group-hostigador .rpginv::-webkit-scrollbar-thumb {background: var(--hostigador);}
 .userprofile-group-orador .rpginv::-webkit-scrollbar-thumb{background: var(--orador);}
 .userprofile-group-inactivo .rpginv::-webkit-scrollbar-thumb {background: var(--inactivo);}
-
-.userprofile-group-canalizador .postprofile2 .postprofile-field.postprofile-field-edad:after  { color: var(--canalizador);}
-.userprofile-group-guardian .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--guardian);}
-.userprofile-group-hostigador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--hostigador);}
-.userprofile-group-orador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--orador);}
-.userprofile-group-inactivo .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--inactivo);}  
-.userprofile-group-administradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--administradores); }
-.userprofile-group-narradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--narradores);}
 
 /** SKILLS ***/
 
