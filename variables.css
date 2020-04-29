@@ -120,6 +120,12 @@
 .userprofile-group-orador .rpginv::-webkit-scrollbar-thumb{background: var(--orador);}
 .userprofile-group-inactivo .rpginv::-webkit-scrollbar-thumb {background: var(--inactivo);}
 
+.usergroup-group-canalizador .expininner::-webkit-scrollbar-thumb {background: var(--canalizador);}
+.usergroup-group-guardian .expininner::-webkit-scrollbar-thumb {background: var(--guardian);}
+.usergroup-group-hostigador .expininner::-webkit-scrollbar-thumb {background: var(--hostigador);}
+.usergroup-group-orador .expininner::-webkit-scrollbar-thumb{background: var(--orador);}
+.usergroup-group-inactivo .expininner::-webkit-scrollbar-thumb {background: var(--inactivo);}
+
 /** SKILLS ***/
 
 .guardian .punto-activo:after {background: var(--guardian) !important;}
