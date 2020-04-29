@@ -361,14 +361,14 @@ font-family: Roboto Condensed;
     padding: 10px;
     position: relative;
     text-transform: uppercase;
-top: -75px;
+    top: -75px;
 }
 
 .combatpvre {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -60px;
+    top: -55px;
     width: 200px;
 }
 
