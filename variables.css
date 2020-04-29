@@ -804,12 +804,12 @@ justify-content: center;
 
 .expdatos1 {
   margin-left: 450px;
-  background: rgba(0,0,0,.95);
+  background: rgba(0,0,0,.8);
   padding: 70px;
 }
 
 .expdatos2 { 
-  background: rgba(0,0,0,.95);
+  background: rgba(0,0,0,.8);
   padding: 70px;
 }
 
@@ -1049,19 +1049,17 @@ pjhab span {
 .usergroup-group-orador .expiname { color: var(--orador); }
 .usergroup-group-inactivo .expiname{  color: var(--inactivo); }
 
-.usergroup-group-canalizador .expdatos1.tambisep{  color: var(--canalizador); }
-.usergroup-group-guardian .expdatos1.tambisep {  color: var(--guardian); }
-.usergroup-group-hostigador .expdatos1.tambisep {  color: var(--hostigador); }
-.usergroup-group-orador .expdatos1.tambisep{ color: var(--orador); }
-.usergroup-group-inactivo .expdatos1.tambisep{  color: var(--inactivo); }
-
+.usergroup-group-canalizador .expdatos1 span.tambisep {  color: var(--canalizador); }
+.usergroup-group-guardian .expdatos1 span.tambisep {  color: var(--guardian); }
+.usergroup-group-hostigador .expdatos1 span.tambisep {  color: var(--hostigador); }
+.usergroup-group-orador .expdatos1 span.tambisep{ color: var(--orador); }
+.usergroup-group-inactivo .expdatos1 span.tambisep{  color: var(--inactivo); }
 
 .usergroup-group-canalizador pjhab:before{  color: var(--canalizador); }
 .usergroup-group-guardian pjhab:before{  color: var(--guardian); }
 .usergroup-group-hostigador pjhab:before {  color: var(--hostigador); }
 .usergroup-group-orador pjhab:before { color: var(--orador); }
 .usergroup-group-inactivo pjhab:before{  color: var(--inactivo); }
-
 
 .usergroup-group-canalizador .pjfstats strong{  color: var(--canalizador); }
 .usergroup-group-guardian .pjfstats strong{  color: var(--guardian); }
