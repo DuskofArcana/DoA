@@ -773,7 +773,10 @@ progress[value]{
     color:#6e6e6e;
     font-family:Roboto Condensed;
     font-size:8px;
-    letter-spacing:1px;.usergroup-group-canalizador .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--canalizador), #777);}
+    letter-spacing:1px;
+}
+
+.usergroup-group-canalizador .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--canalizador), #777);}
 .usergroup-group-guardian .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--guardian), #777);}
 .usergroup-group-hostigador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--hostigador), #777);}
 .usergroup-group-orador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--orador), #777);}
