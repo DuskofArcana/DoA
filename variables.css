@@ -802,6 +802,14 @@ progress[value]{
     color: var(--accent)!important;
 }
 
+.combateinner {
+	    width: 50%;
+    height: 120px;
+    overflow: auto;
+    line-height: 10pt;
+    margin: 0 5px;
+}
+
 .combateinner::-webkit-scrollbar{width: 1px;background-color: #000;}
 
 .userprofile-group-administrador .rpginv::-webkit-scrollbar-thumb {background: var(--accent);}
