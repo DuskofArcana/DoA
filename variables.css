@@ -766,13 +766,12 @@ progress[value]{
     font-family:Old Standard TT;
     font-size:7pt
 }
-.combatehab,.combateinv{
-    width:50%;
-    height:120px;
-    overflow:auto;
-    line-height:10pt;
-    margin:0 5px
+.combatehab, .combateinv {
+    width: 50%;
+    line-height: 10pt;
+    margin: 0 5px;
 }
+
 .combatehab:before{
     content:"Habilidades";
     width:100%;
@@ -794,12 +793,25 @@ progress[value]{
     font-family:Poppins;
     font-weight:700;
     font-size:8pt;
-    border-bottom:1px solid var(--accent);
+    border-bottom:1px solid var(--accent)!important;
     padding-bottom:8px;
     text-align:right;
     margin-bottom:5px
 }
+.combateinv.combateinner .combateinv {
+    color: var(--accent)!important;
+}
 
+.combateinner::-webkit-scrollbar{width: 1px;background-color: #000;}
+
+.userprofile-group-administrador .rpginv::-webkit-scrollbar-thumb {background: var(--accent);}
+.userprofile-group-narrador .rpginv::-webkit-scrollbar-thumb{background: var(--accent);}
+.userprofile-group-guardian .rpginv::-webkit-scrollbar-thumb {background: var(--guardian);}
+.userprofile-group-hostigador .rpginv::-webkit-scrollbar-thumb {background: var(--hostigador);}
+.userprofile-group-orador .rpginv::-webkit-scrollbar-thumb{background: var(--orador);}
+.userprofile-group-inactivo .rpginv::-webkit-scrollbar-thumb {background: var(--inactivo);}
+
+.canalizador .combatehab .combateinner::-webkit-scrollbar-thumb {background: var(--canalizador);}
 .canalizador .pjname:before{color:var(--canalizador);content:"\eb57";font-family:honeybee;border-color:var(--canalizador);font-weight: 400}
 .canalizador .combatpvre progress:before,.canalizador .pjstats strong{color:var(--canalizador)}
 .canalizador .combatpvre progress[value]::-webkit-progress-value{background:var(--canalizador)}
@@ -809,6 +821,7 @@ progress[value]{
 .orador .combatpvre progress:before,.orador .pjstats strong{color:var(--orador)}
 .orador .combatpvre progress[value]::-webkit-progress-value{background:var(--orador)}
 .orador progress::-webkit-progress-bar {border-bottom-color: var(--orador) !important;}
+.orador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
 
 .guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400}
 .guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
