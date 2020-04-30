@@ -4271,27 +4271,36 @@ progress[value]{
 .userprofile-group-orador .rpginv::-webkit-scrollbar-thumb{background: var(--orador);}
 .userprofile-group-inactivo .rpginv::-webkit-scrollbar-thumb {background: var(--inactivo);}
 
-.canalizador .combatehab .combateinner::-webkit-scrollbar-thumb {background: var(--canalizador);}
 .canalizador .pjname:before{color:var(--canalizador);content:"\eb57";font-family:honeybee;border-color:var(--canalizador);font-weight: 400}
 .canalizador .combatpvre progress:before,.canalizador .pjstats strong{color:var(--canalizador)}
 .canalizador .combatpvre progress[value]::-webkit-progress-value{background:var(--canalizador)}
 .canalizador progress::-webkit-progress-bar {border-bottom-color: var(--canalizador) !important;}
+.canalizador .combatehab:before, .canalizador .combateinv:before {border-bottom-color: var(--canalizador) !important;} 
+.canalizador .combatehab strong, .canalizador .combateinv strong {color: var(--canalizador) !important}
+.canalizador .combateinner::-webkit-scrollbar-thumb {background: var(--canalizador);}
 
 .orador .pjname:before{color:var(--orador);content:"\e907";font-family:honeybee;border-color:var(--orador);font-weight: 400}
 .orador .combatpvre progress:before,.orador .pjstats strong{color:var(--orador)}
 .orador .combatpvre progress[value]::-webkit-progress-value{background:var(--orador)}
 .orador progress::-webkit-progress-bar {border-bottom-color: var(--orador) !important;}
-.orador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
+.orador .combatehab:before, .orador .combateinv:before {border-bottom-color: var(--orador) !important;} 
+.orador .combatehab strong, .orador .combateinv strong {color: var(--orador) !important}
+.orador .combateinner::-webkit-scrollbar-thumb {background: var(--orador);}
 
 .guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400}
 .guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
 .guardian .combatpvre progress[value]::-webkit-progress-value{background:var(--guardian)}
-.guardian progress::-webkit-progress-bar {border-bottom-color: var(--guardian) !important;}
+.guardian .combatehab:before, .guardian .combateinv:before {border-bottom-color: var(--guardian) !important;} 
+.guardian .combatehab strong, .guardian .combateinv strong {color: var(--guardian) !important}
+.guardian .combateinner::-webkit-scrollbar-thumb {background: var(--guardian);}
 
 .hostigador .pjname:before{color:var(--hostigador);content:"\ec74";font-family:honeybee;border-color:var(--hostigador);font-weight: 400}
 .hostigador .combatpvre progress:before,.hostigador .pjstats strong{color:var(--hostigador)}
 .hostigador .combatpvre progress[value]::-webkit-progress-value{background:var(--hostigador)}
-.hostigador progress::-webkit-progress-bar {border-bottom-color: var(--hostigador) !important;}
+.hostigador .combatehab:before, .hostigador .combateinv:before {border-bottom-color: var(--hostigador) !important;} 
+.hostigador .combatehab strong, .hostigador .combateinv strong {color: var(--hostigador) !important}
+.hostigador .combateinner::-webkit-scrollbar-thumb {background: var(--hostigador);}
+
 
 
 /** NPCS **/
