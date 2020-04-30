@@ -193,6 +193,18 @@
 .convergente .barra-externa {background: var(--orador) !important;}
 .convergente .skill-icon {color: var(--orador) !important;}
 
+.guardian .skill-descrip::-webkit-scrollbar-thumb  {background: var(--guardian) !important;}
+.paladin .skill-descrip::-webkit-scrollbar-thumb {color: var(--guardian) !important;}
+.centinela .skill-descrip::-webkit-scrollbar-thumb {background: var(--guardian) !important;}
+.canalizador .skill-descrip::-webkit-scrollbar-thumb {color: var(--canalizador) !important;}
+.invocador .skill-descrip::-webkit-scrollbar-thumb {background: var(--canalizador) !important;}
+.conjurador .skill-descrip::-webkit-scrollbar-thumb {color: var(--canalizador) !important;}
+.hostigador .skill-descrip::-webkit-scrollbar-thumb {background: var(--hostigador) !important;}
+.duelista .skill-descrip::-webkit-scrollbar-thumb {color: var(--hostigador) !important;}
+.rastreador .skill-descrip::-webkit-scrollbar-thumb {background: var(--hostigador) !important;}
+.ejecutor .skill-descrip::-webkit-scrollbar-thumb {color: var(--hostigador) !important;}
+.orador .skill-descrip::-webkit-scrollbar-thumb {color: var(--orador) !important;}
+.sanador .skill-descrip::-webkit-scrollbar-thumb {color: var(--orador) !important;}
 .convergente .skill-descrip::-webkit-scrollbar-thumb {background: var(--orador)!important;}
 
 .skilldiv1 {
