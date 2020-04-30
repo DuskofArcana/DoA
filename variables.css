@@ -193,6 +193,8 @@
 .convergente .barra-externa {background: var(--orador) !important;}
 .convergente .skill-icon {color: var(--orador) !important;}
 
+.convergente .skill-descrip::-webkit-scrollbar-thumb {background: var(--orador)!important;}
+
 .skilldiv1 {
      display: flex;
     justify-content: center;
@@ -343,6 +345,9 @@ font-weight: bold;
   overflow: auto;
   height: 200px;
 }
+
+.skill-descrip::-webkit-scrollbar{width: 1px;background-color: #000;}
+
 .skill-descrip [class^="lvl-"] {
   position: absolute;
   top: 0;
@@ -980,7 +985,7 @@ progress[value]{
 
 .expin {
   background: rgba(0,0,0,.7);
-    padding: 40px 30px 40px 41px;
+  padding: 40px 30px 40px 41px;
   font-family: Fira Sans; 
   font-size: 9pt;
   text-align: justify;
