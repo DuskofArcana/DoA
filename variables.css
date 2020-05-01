@@ -968,8 +968,6 @@ div.combateficha > br {display:none}
     overflow: auto; 
 }
 
-div.combateinner > br {display:none}
-
 .pjdatos{
     width:100%;
     display:flex;
