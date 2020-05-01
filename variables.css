@@ -1022,6 +1022,9 @@ div.combateficha > br {display:none}
     padding: 5px;
     margin: 15px 0;
 }
+.pjstats strong {
+	color: var(--accent)
+}
 pp:before {
     color: #424140;
     content: "\f111";
