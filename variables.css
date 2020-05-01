@@ -3108,14 +3108,7 @@ font-weight: bold;
     justify-content:center;
     margin-bottom:10px
 }
-.combateficha{
-    width:260px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    margin:0 10px
-}
+
 .pjdatos{
     width:100%;
     display:flex;
