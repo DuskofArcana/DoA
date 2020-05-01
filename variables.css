@@ -950,6 +950,8 @@ font-weight: bold;
     background: #000;
     box-sizing: border-box;
     padding: 20px 0px 20px 0px;
+    font-family: Fira Sans;
+    font-size: 8.5pt;	
 }
 
 div.combateficha > br {display:none}
@@ -1144,7 +1146,7 @@ progress[value]{
     border-bottom:1px solid var(--accent);
     padding-bottom:8px;
     text-align:right;
-    margin-bottom:5px;
+     margin-bottom: 10px;
 }
 .combateinv:before{
     content:"Inventario";
@@ -1157,7 +1159,7 @@ progress[value]{
     border-bottom:1px solid var(--accent)!important;
     padding-bottom:8px;
     text-align:right;
-    margin-bottom:5px;
+     margin-bottom: 10px;
 }
 .combateinv.combateinner .combateinv {
     color: var(--accent)!important;
@@ -1173,6 +1175,37 @@ progress[value]{
 .combatediv2 { 
     display: flex;
     justify-content: center;
+    position: relative;
+    top: -12px;
+}
+
+div.combateinner > br:nth-of-type(1) {display:none}
+
+.combatediv2 .combateficha .combateinner {
+      width: 220px;
+      height: 90px;
+}
+
+.combatediv2 .combateinv{
+    width: 220px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.combatediv2 .combatehab {
+    width: 220px;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.combatehab strong {
+    color: var(--accent);
+    font-family: Old Standard TT;
+    font-size: 7pt;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .canalizador .combatehab .combateinner::-webkit-scrollbar-thumb {background: var(--canalizador);}
@@ -1186,6 +1219,8 @@ progress[value]{
 .canalizador .combateinv:before { border-bottom: 1px solid var(--canalizador)!important;}
 .canalizador .combatehab strong { color:var(--canalizador);}
 .canalizador .combateinv strong { color:var(--canalizador);}
+.canalizador .combateinner strong { color:var(--canalizador);} 
+.canalizador .combateinner::-webkit-scrollbar-thumb{background: var(--canalizador);}
 
 .orador .pjname:before{color:var(--orador);content:"\e907";font-family:honeybee;border-color:var(--orador);font-weight: 400}
 .orador .combatpvre progress:before,.orador .pjstats strong{color:var(--orador);}
@@ -1197,6 +1232,8 @@ progress[value]{
 .orador .combateinv:before { border-bottom: 1px solid var(--orador)!important;}
 .orador .combatehab strong { color:var(--orador);}
 .orador .combateinv strong { color:var(--orador);}
+.orador .combateinner strong { color:var(--orador);} 
+.orador .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
 
 .guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400}
 .guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
@@ -1208,6 +1245,8 @@ progress[value]{
 .guardian .combateinv:before { border-bottom: 1px solid var(--guardian)!important;}
 .guardian .combatehab strong { color:var(--guardian);}
 .guardian .combateinv strong { color:var(--guardian);}
+.guardian .combateinner strong { color:var(--guardian);} 
+.guardian .combateinner::-webkit-scrollbar-thumb{background: var(--guardian);}
 
 .hostigador .pjname:before{color:var(--hostigador);content:"\ec74";font-family:honeybee;border-color:var(--hostigador);font-weight: 400}
 .hostigador .combatpvre progress:before,.hostigador .pjstats strong{color:var(--hostigador)}
@@ -1219,4 +1258,5 @@ progress[value]{
 .hostigador .combateinv:before { border-bottom: 1px solid var(--hostigador)!important;}
 .hostigador .combatehab strong { color:var(--hostigador);} 
 .hostigador .combateinv strong { color:var(--hostigador);}  
-
+.hostigador .combateinner strong { color:var(--hostigador);} 
+.hostigador .combateinner::-webkit-scrollbar-thumb{background: var(--hostigador);}
