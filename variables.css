@@ -1179,7 +1179,7 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 
 .combatediv2 .combateficha .combateinner {
       width: 220px;
-      height: 90px;
+      height: 120px;
 }
 
 .combatediv2 .combateinv{
@@ -1201,6 +1201,53 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
     text-transform: uppercase;
     font-weight: bold;
 }
+.combateficha2 {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px 0px 0px;
+    background: #111;
+    box-sizing: border-box;
+    padding: 10px 0px 5px 0px;
+    font-family: Fira Sans;
+    font-size: 8.5pt;
+}
+
+.combatehab2 {
+    display: block;
+    font-family: Roboto Condensed;
+    font-size: 7pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 3px;
+    margin-right: 10px;
+}
+
+.combatehab2:before {
+     content: "Habilidades";
+}
+
+.combateinv2 {
+     border-bottom: 1px solid var(--accent);
+    display: block;
+    font-family: Roboto Condensed;
+    font-size: 7pt;
+    font-weight: 700;
+    letter-spacing: 1px; 
+    margin-bottom: -8px;
+    margin-right: 10px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.combateinv2:before {
+     content: "Inventario";
+}
 
 .canalizador .combatehab .combateinner::-webkit-scrollbar-thumb {background: var(--canalizador);}
 .canalizador .pjname:before{color:var(--canalizador);content:"\eb57";font-family:honeybee;border-color:var(--canalizador);font-weight: 400}
@@ -1215,6 +1262,8 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 .canalizador .combateinv strong { color:var(--canalizador);}
 .canalizador .combateinner strong { color:var(--canalizador);} 
 .canalizador .combateinner::-webkit-scrollbar-thumb{background: var(--canalizador);}
+.canalizador .combateinv2 {border-bottom-color: var(--canalizador);}
+.canalizador .combatehab2 {border-bottom-color: var(--canalizador);}
 
 .orador .pjname:before{color:var(--orador);content:"\e907";font-family:honeybee;border-color:var(--orador);font-weight: 400}
 .orador .combatpvre progress:before,.orador .pjstats strong{color:var(--orador);}
@@ -1228,6 +1277,8 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 .orador .combateinv strong { color:var(--orador);}
 .orador .combateinner strong { color:var(--orador);} 
 .orador .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
+.orador .combateinv2 {border-bottom-color: var(--orador);}
+.orador .combatehab2 {border-bottom-color: var(--orador);}
 
 .guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400}
 .guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
@@ -1241,6 +1292,8 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 .guardian .combateinv strong { color:var(--guardian);}
 .guardian .combateinner strong { color:var(--guardian);} 
 .guardian .combateinner::-webkit-scrollbar-thumb{background: var(--guardian);}
+.guardian .combateinv2 {border-bottom-color: var(--guardian);}
+.guardian .combatehab2 {border-bottom-color: var(--guardian);}
 
 .hostigador .pjname:before{color:var(--hostigador);content:"\ec74";font-family:honeybee;border-color:var(--hostigador);font-weight: 400}
 .hostigador .combatpvre progress:before,.hostigador .pjstats strong{color:var(--hostigador)}
@@ -1254,3 +1307,5 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 .hostigador .combateinv strong { color:var(--hostigador);}  
 .hostigador .combateinner strong { color:var(--hostigador);} 
 .hostigador .combateinner::-webkit-scrollbar-thumb{background: var(--hostigador);}
+.hostigador .combateinv2 {border-bottom-color: var(--hostigador);}
+.hostigador .combatehab2 {border-bottom-color: var(--hostigador);}
