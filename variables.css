@@ -1136,30 +1136,32 @@ progress[value]{
 }
 
 .combatehab:before{
-    content:"Habilidades";
-    width:100%;
-    display:block;
-    text-transform:uppercase;
-    font-family:Poppins;
-    font-weight:700;
-    font-size:8pt;
-    border-bottom:1px solid var(--accent);
-    padding-bottom:8px;
-    text-align:right;
-     margin-bottom: 10px;
+    content: "Habilidades";
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    font-family: Roboto Condensed;
+    font-size: 7pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: right;
 }
 .combateinv:before{
-    content:"Inventario";
-    width:100%;
-    display:block;
-    text-transform:uppercase;
-    font-family:Poppins;
-    font-weight:700;
-    font-size:8pt;
-    border-bottom:1px solid var(--accent)!important;
-    padding-bottom:8px;
-    text-align:right;
-     margin-bottom: 10px;
+    content: "Inventario";
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--accent)!important;
+    padding-bottom: 8px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-family: Roboto Condensed;
+    font-size: 7pt;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 .combateinv.combateinner .combateinv {
     color: var(--accent)!important;
