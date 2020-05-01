@@ -1167,11 +1167,6 @@ progress[value]{
 
 .combateinner::-webkit-scrollbar{width: 1px;background-color: #000;}
 
-.combatediv2 .combatehab {
-    width: 220px;
-    line-height: 10pt;
-}
-
 .combatediv2 { 
     display: flex;
     justify-content: center;
@@ -1189,14 +1184,12 @@ div.combateinner > br:nth-of-type(1) {display:none}
 .combatediv2 .combateinv{
     width: 220px;
     margin: auto;
-    padding-bottom: 10px;
     padding-top: 10px;
 }
 
 .combatediv2 .combatehab {
     width: 220px;
     margin: auto;
-    padding-bottom: 10px;
     margin-top: 0;
 }
 
