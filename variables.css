@@ -964,7 +964,7 @@ div.combateficha > br {display:none}
     justify-content:center; 
 }
 .combateinner {
-    height: 120px;
+    height: 110px;
     overflow: auto; 
     font-family: Fira Sans;
     font-size: 8.5pt;
@@ -1122,7 +1122,7 @@ progress[value]{
 .combateinner strong{
     color:var(--accent);
     text-transform:uppercase;
-    font-family:Old Standard TT;
+    font-family: Roboto Condensed;
     font-size:7pt;
 }
 .combatehab {
@@ -1143,10 +1143,9 @@ progress[value]{
     border-bottom: 1px solid var(--accent);
     padding-bottom: 8px;
     margin-bottom: 10px;
-    font-family: Roboto Condensed;
+    font-family: Poppins;
     font-size: 7pt;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-weight: bold; 
     text-align: right;
 }
 .combateinv:before{
@@ -1158,10 +1157,9 @@ progress[value]{
     padding-bottom: 8px;
     text-align: right;
     margin-bottom: 10px;
-    font-family: Roboto Condensed;
+    font-family: Poppins;
     font-size: 7pt;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-weight: bold; 
 }
 .combateinv.combateinner .combateinv {
     color: var(--accent)!important;
