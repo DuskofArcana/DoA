@@ -427,15 +427,15 @@ font-weight: bold;
     margin-bottom:10px
 }
 .combateficha{
-    width:260px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    margin:0 10px;
-    background: #000;
-    padding: 0px 5px 20px 5px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0px 5px 0px 0px;
+    background: #111;
+    box-sizing: border-box;
+    padding: 20px 0px 20px 0px;
 	     }
 .pjdatos{
     width:100%;
@@ -938,230 +938,6 @@ font-weight: bold;
 
 
 /** COMBATE **/
-/*.combateatq {
-font-family: Roboto Condensed;
-    font-size: 7.5pt;
-    margin: auto;
-    padding: 10px;
-    position: relative;
-    text-transform: uppercase;
-    top: -75px;
-}
-
-.combatpvre {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -55px;
-    width: 200px;
-}
-
-.combatpvre span {
-    color: #6e6e6e;
-    font-family: Roboto Condensed;
-    font-size: 9px;
-    letter-spacing: 1px;
-    position: relative;
-    right: -8px;
-    text-align: right;
-    top: 10px;
-    width: 200px;
-}
-
-.combatpvre progress[value] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: transparent;
-    color: var(--accent);
-    width: 200px;
-    position: relative;
-    line-height: 120%;
-    margin: 5px 0 0 8px;
-    height: 3px;
-}
-
-.combatediv {
-display: flex;
-justify-content: center; 
-background-color: 
-}
-
-.combatediv1 {
-    width: 220px;
-  padding: 25px 20px 20px 20px;
-  background: #000;
-  height: 240px;
-  margin-right: 5px;
-}
-
-.combatehab {
-    width: 240px;
-    padding: 25px 20px 20px 20px;
-    background: #000;
-    height: 240px;
-    font-family: Fira Sans;
-    font-size: 8pt;
-    line-height: 12pt;
-   }
-
-.combatehab strong {
-  color: var(--accent);
-  text-transform: uppercase;
-  font-family: Old Standard TT;
-
-}
-
-.combatehab strong:before {
-    color: #424140;
-    content: "\f111";
-    font-family: FontAwesome;
-    font-size: 3px;
-    margin-left: 5px;
-    margin-right: 5px;
-    position: relative;
-    top: -2px;
-}
-
-.combatehabin {
-      overflow: auto;
-      height: 231px;
-      padding-right: 20px;
-}
-
-.combatehabin::-webkit-scrollbar{width: 1px;}
-.combatehabin::-webkit-scrollbar-thumb{background-color: var(--accent);}
-
-.combatehabs  {
-    background: #000;
-    padding: 20px; 
-    position: relative;
-    margin: auto; 
-    font-family: Fira Sans; 
-    font-size: 8pt;
-    top: -33px;
-    width: 485px;
-    left: -3px;
-    display: flex;
-    justify-content: cent;
-}
-
-.combatehabsin {
-      width: 250px;
-      margin-left: 10px;
-}
-.combatehabsinv {
-    height: 120px;
-    overflow: auto;
-    padding-right: 15px;
-  line-height: 10pt;
-}
-.combatehabs strong {
-  color: var(--accent);
-  text-transform: uppercase;
-  font-family: Old Standard TT;
-  font-size: 7pt;
-}
-
-.combatehabs strong:before {
-    color: #424140;
-    content: "\f111";
-    font-family: FontAwesome;
-    font-size: 3px;
-    margin-left: 5px;
-    margin-right: 5px;
-    position: relative;
-    top: -2px;
-}*/
-
-/*.combatehabsinv::-webkit-scrollbar{width: 1px;}
-.combatehabsinv::-webkit-scrollbar-thumb{background-color: var(--accent);}*/
-
-/*.pjnivel { 
-    font-family: Roboto Condensed;
-    font-size: 6.5pt;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 6.5pt;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    top: -20px;
-}
-
-.pjname {
-    font-family: Poppins;
-    font-size: 10pt;
-    font-weight: 700; 
-    text-align: center;
-    text-transform: uppercase; 
-} 
- 
-.pjname:before {
-    color: var(--accent);
-    content: '\ebef';
-    font-family: honeybee;
-    font-size: 20px;
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    border-radius: 50%;
-    border: 1px solid var(--accent);
-    display: block;
-    margin: auto;
-    line-height: 32px;
-    margin: 0px auto 5px;
-}
-
-.pjstats { 
-    display: flex;
-    font-family: Roboto Condensed;
-    font-size: 6.5pt;
-    font-weight: 400;
-    justify-content: space-evenly;
-    letter-spacing: 1px;
-    line-height: 6.5pt;
-    margin: auto;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    top: -40px;
-    width: 250px;
-    border-top: 1px solid #1c1c1c;
-    border-bottom: 1px solid #1c1c1c;
-    padding: 5px;
-    left: -20px;
-}
-
-.pjstats strong {
-  color: var(--accent);
-}
-
-.pjstats strong:before {
-    color: #424140;
-    content: "\f111";
-    font-family: FontAwesome;
-    font-size: 3px;
-    margin-right: 5px;
-    position: relative;
-    top: -2px;
-}
-
-.pjstats strong:first-child:before {
-    display: none;
-}
-
-.combtitle {
-  text-transform: uppercase;
-  font-family: Poppins;
-  font-weight: bold;
-  font-size: 8pt;
-  border-bottom: 1px solid var(--accent);
-  padding-bottom: 8px;
-  text-align: right;
-}*/
-
-
 .combatpvre br, .pjstats br {
     display:none
 }
@@ -1322,10 +1098,14 @@ progress[value]{
     font-family:Old Standard TT;
     font-size:7pt
 }
-.combatehab, .combateinv {
+.combatehab {
     width: 50%;
     line-height: 10pt;
-    margin: 0 5px;
+    margin-right: 10px;
+}
+ .combateinv {
+    width: 50%;
+    line-height: 10pt;
 }
 
 .combatehab:before{
