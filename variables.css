@@ -964,6 +964,8 @@ div.combateficha > br {display:none}
 .combateinner {
     height: 120px;
     overflow: auto; 
+    font-family: Fira Sans;
+    font-size: 8.5pt;
 }
 
 .pjdatos{
@@ -1107,8 +1109,6 @@ progress[value]{
 .combateinfo{
     width: 525px;
     margin: 0 auto;
-    font-family: Fira Sans;
-    font-size: 8pt;
     display: flex;
     background-color: #000;
     box-sizing: border-box;
@@ -1117,7 +1117,7 @@ progress[value]{
     top: -12px;
     left: -3px;
 }
-.combateinfo strong{
+.combateinner strong{
     color:var(--accent);
     text-transform:uppercase;
     font-family:Old Standard TT;
@@ -1164,6 +1164,16 @@ progress[value]{
 }
 
 .combateinner::-webkit-scrollbar{width: 1px;background-color: #000;}
+
+.combatediv2 .combatehab {
+    width: 220px;
+    line-height: 10pt;
+}
+
+.combatediv2 { 
+    display: flex;
+    justify-content: center;
+}
 
 .canalizador .combatehab .combateinner::-webkit-scrollbar-thumb {background: var(--canalizador);}
 .canalizador .pjname:before{color:var(--canalizador);content:"\eb57";font-family:honeybee;border-color:var(--canalizador);font-weight: 400}
