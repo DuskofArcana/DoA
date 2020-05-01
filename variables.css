@@ -1105,7 +1105,6 @@ progress[value]{
     text-transform:uppercase;
     width:200px;
 }
-div.combateinfo > br {display:none}
 
 .combateinfo{
     width: 525px;
@@ -1116,6 +1115,9 @@ div.combateinfo > br {display:none}
     background-color: #000;
     box-sizing: border-box;
     padding: 20px;
+    position: relative;
+    top: -22px;
+    left: -3px;
 }
 .combateinfo strong{
     color:var(--accent);
