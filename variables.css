@@ -2,8 +2,8 @@
 
 .usergroup-group-canalizador .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--canalizador), #777);}
 .usergroup-group-guardian .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--guardian), #777);}
-.usergroup-group-hostigador .topictitle-contaner  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--hostigador), #777);}
-.usergroup-group-orado .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--orador), #777);}
+.usergroup-group-hostigador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--hostigador), #777);}
+.usergroup-group-orador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--orador), #777);}
 .usergroup-group-inactivo .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--inactivo), #777);}
 .usergroup-group-administradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--administradores), #777);}
 .usergroup-group-narradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--narradores), #777);}
@@ -14,7 +14,7 @@
 .usergroup-group-orador .topictitle-container .topictitle-image img {  border: 2px solid var(--orador)!important; }
 .usergroup-group-inactivo .topictitle-container .topictitle-image img {  border: 2px solid var(--inactivo)!important; }
 .usergroup-group-administradores .topictitle-container .topictitle-image img {  border: 2px solid var(--administradores)!important; }
-.usergroup-group-narradores .topictitle-container .topictile-image img {  border: 2px solid var(--narradores)!important; }
+.usergroup-group-narradores .topictitle-container .topictitle-image img {  border: 2px solid var(--narradores)!important; }
 
 .usergroup-group-canalizador .topicbuttons span {  color: var(--canalizador); }
 .usergroup-group-guardian .topicbuttons span {  color: var(--guardian); }
@@ -968,6 +968,8 @@ div.combateficha > br {display:none}
     overflow: auto; 
 }
 
+div.combateinner > br {display:none}
+
 .pjdatos{
     width:100%;
     display:flex;
@@ -1173,8 +1175,9 @@ progress[value]{
 .canalizador .combatpvre progress[value]::-webkit-progress-value{background:var(--canalizador)}
 .canalizador progress::-webkit-progress-bar {border-bottom-color: var(--canalizador) !important;}
 .canalizador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--canalizador);}
+.canalizador .combateinv .combateinner::-webkit-scrollbar-thumb{background: var(--canalizador);}
 .canalizador .combatehab:before { border-bottom: 1px solid var(--canalizador);}
-.canalizador .combateinv:before { border-bottom: 1px solid var(--canalizador);}
+.canalizador .combateinv:before { border-bottom: 1px solid var(--canalizador)!important;}
 .canalizador .combatehab strong { color:var(--canalizador);}
 .canalizador .combateinv strong { color:var(--canalizador);}
 
@@ -1183,8 +1186,9 @@ progress[value]{
 .orador .combatpvre progress[value]::-webkit-progress-value{background:var(--orador);}
 .orador progress::-webkit-progress-bar {border-bottom-color: var(--orador) !important;}
 .orador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
+.orador .combateinv .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
 .orador .combatehab:before { border-bottom: 1px solid var(--orador);}
-.orador .combateinv:before { border-bottom: 1px solid var(--orador);}
+.orador .combateinv:before { border-bottom: 1px solid var(--orador)!important;}
 .orador .combatehab strong { color:var(--orador);}
 .orador .combateinv strong { color:var(--orador);}
 
@@ -1193,8 +1197,9 @@ progress[value]{
 .guardian .combatpvre progress[value]::-webkit-progress-value{background:var(--guardian)}
 .guardian progress::-webkit-progress-bar {border-bottom-color: var(--guardian) !important;}
 .guardian .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--guardian);}
+.guardian .combateinv .combateinner::-webkit-scrollbar-thumb{background: var(--guardian);}
 .guardian .combatehab:before { border-bottom: 1px solid var(--guardian);}
-.guardian .combateinv:before { border-bottom: 1px solid var(--guardian);}
+.guardian .combateinv:before { border-bottom: 1px solid var(--guardian)!important;}
 .guardian .combatehab strong { color:var(--guardian);}
 .guardian .combateinv strong { color:var(--guardian);}
 
@@ -1203,7 +1208,8 @@ progress[value]{
 .hostigador .combatpvre progress[value]::-webkit-progress-value{background:var(--hostigador)}
 .hostigador progress::-webkit-progress-bar {border-bottom-color: var(--hostigador) !important;}
 .hostigador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--hostigador);}
+.hostigador .combateinv .combateinner::-webkit-scrollbar-thumb{background: var(--hostigador);}
 .hostigador .combatehab:before { border-bottom: 1px solid var(--hostigador);}
-.hostigador .combateinv:before { border-bottom: 1px solid var(--hostigador);}
+.hostigador .combateinv:before { border-bottom: 1px solid var(--hostigador)!important;}
 .hostigador .combatehab strong { color:var(--hostigador);} 
 .hostigador .combateinv strong { color:var(--hostigador);}  
