@@ -1175,6 +1175,7 @@ progress[value]{
 }
 
 div.combateinner > br:nth-of-type(1) {display:none}
+div.combateinner2 > br:nth-of-type(1) {display:none}
 
 .combatediv2 .combateficha .combateinner {
       width: 220px;
