@@ -940,15 +940,32 @@ font-weight: bold;
 
 
 /** COMBATE **/
+.combateficha {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px 0px 0px;
+    background: #000;
+    box-sizing: border-box;
+    padding: 20px 0px 20px 0px;
+}
+
+div.combateficha > br {display:none}
 
 .combatpvre br, .pjstats br {
     display:none;
 }
-
  .combatediv{
     display:flex;
     justify-content:center;
     margin-bottom:10px;
+}
+
+.combateinner {
+    height: 120px;
+    overflow: auto; 
 }
 
 .pjdatos{
@@ -988,6 +1005,24 @@ font-weight: bold;
     text-align:center;
     position:relative;
 }
+.pjstats {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    font-family: Roboto Condensed;
+    font-size: 6.5pt;
+    font-weight: 400;
+    justify-content: space-evenly;
+    letter-spacing: 1px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 1px solid #1c1c1c;
+    border-bottom: 1px solid #1c1c1c;
+    padding: 5px;
+    margin: 15px 0;
+}
+
 .pjstats strong{
     color:var(--accent);
     margin-right:1px;
