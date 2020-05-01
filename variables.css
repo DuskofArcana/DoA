@@ -1105,13 +1105,17 @@ progress[value]{
     text-transform:uppercase;
     width:200px;
 }
+div.combateinfo > br {display:none}
+
 .combateinfo{
-    width:560px;
-    margin:0 auto;
-    font-family:Fira Sans;
-    font-size:8pt;
-    display:flex;
+    width: 525px;
+    margin: 0 auto;
+    font-family: Fira Sans;
+    font-size: 8pt;
+    display: flex;
     background-color: #000;
+    box-sizing: border-box;
+    padding: 20px;
 }
 .combateinfo strong{
     color:var(--accent);
