@@ -654,8 +654,9 @@ justify-content: center;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    margin:0 10px
-}
+    margin:0 10px;
+   background: #000;
+	     }
 .pjdatos{
     width:100%;
     display:flex;
