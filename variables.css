@@ -615,20 +615,20 @@ rpghab {display:inline-flex;flex-direction:column;font-family:Poppins;font-size:
 rpghab:before {display:block;font-size:20px;line-height:1.5;position:relative;}
 .rpghab {height: 200px;overflow: auto;width: 340px;}
 
-.rpghab .aura:before {content:"\ec0a";font-family:honeybee;}
-.rpghab .magica:before {content:"\ec7f";font-family:honeybee;}
-.rpghab .refuerzo:before {content:"\ec0f";font-family:honeybee,}
-.rpghab .pasiva:before {content:"\ec10";font-family:honeybee;}
-.rpghab .debilitamiento:before {content:"\e989";font-family:honeybee;}
-.rpghab .defensiva:before {content:"\e140";font-family:saturnicons;}
-.rpghab .fisica:before {content:"\eb82";font-family:honeybee,}
-.rpghab .default:before {content:"\eb82";font-family:honeybee,}
+.rpghab .aura:before {content:"\ec0a";font-family:honeybee; font-weight: normal;}
+.rpghab .magica:before {content:"\ec7f";font-family:honeybee; font-weight: normal;}
+.rpghab .refuerzo:before {content:"\ec0f";font-family:honeybee; font-weight: normal;}
+.rpghab .pasiva:before {content:"\ec10";font-family:honeybee; font-weight: normal;}
+.rpghab .debilitamiento:before {content:"\e989";font-family:honeybee; font-weight: normal;}
+.rpghab .defensiva:before {content:"\e140";font-family:saturnicons; font-weight: normal;}
+.rpghab .fisica:before {content:"\eb82";font-family:honeybee; font-weight: normal;}
+.rpghab .default:before {content:"\eb82";font-family:honeybee; font-weight: normal;}
 
-.userprofile-group-guardian .inicial:before {content:"\e075";font-family:saturnicons;}
-.userprofile-group-hostigador .inicial:before {content:"\ec74";font-family:honeybee;}
-.userprofile-group-orador .inicial:before {content:"\e907";font-family:honeybee;}
-.userprofile-group-canalizador .inicial:before {content:"\eb57";font-family:honeybee;}
-.userprofile-nogroup .inicial:before {content:"\eb82";font-family:honeybee;}
+.userprofile-group-guardian .inicial:before {content:"\e075";font-family:saturnicons; font-weight: normal;}
+.userprofile-group-hostigador .inicial:before {content:"\ec74";font-family:honeybee; font-weight: normal;}
+.userprofile-group-orador .inicial:before {content:"\e907";font-family:honeybee; font-weight: normal;}
+.userprofile-group-canalizador .inicial:before {content:"\eb57";font-family:honeybee; font-weight: normal;}
+.userprofile-nogroup .inicial:before {content:"\eb82";font-family:honeybee; font-weight: normal;}
 
 .userprofile-group-guardian rpghab[class]:before {color:var(--guardian);}
 .userprofile-group-hostigador rpghab[class]:before {color:var(--hostigador);}
