@@ -985,23 +985,6 @@ font-weight: bold;
     text-align:center;
     position:relative
 }
-.pjstats{
-    display:flex;
-    width:100%;
-    justify-content:space-evenly;
-    font-family:Roboto Condensed;
-    font-size:6.5pt;
-    font-weight:400;
-    justify-content:space-evenly;
-    letter-spacing:1px;
-    margin:auto;
-    text-align:center;
-    text-transform:uppercase;
-    border-top:1px solid #1c1c1c;
-    border-bottom:1px solid #1c1c1c;
-    padding:5px;
-    margin:10px 0
-}
 .pjstats strong{
     color:var(--accent);
     margin-right:1px
