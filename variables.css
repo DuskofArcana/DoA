@@ -2,8 +2,8 @@
 
 .usergroup-group-canalizador .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--canalizador), #777);}
 .usergroup-group-guardian .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--guardian), #777);}
-.usergroup-group-hostigador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--hostigador), #777);}
-.usergroup-group-orador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--orador), #777);}
+.usergroup-group-hostigador .topictitle-contaner  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--hostigador), #777);}
+.usergroup-group-orado .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--orador), #777);}
 .usergroup-group-inactivo .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--inactivo), #777);}
 .usergroup-group-administradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--administradores), #777);}
 .usergroup-group-narradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--narradores), #777);}
@@ -14,7 +14,7 @@
 .usergroup-group-orador .topictitle-container .topictitle-image img {  border: 2px solid var(--orador)!important; }
 .usergroup-group-inactivo .topictitle-container .topictitle-image img {  border: 2px solid var(--inactivo)!important; }
 .usergroup-group-administradores .topictitle-container .topictitle-image img {  border: 2px solid var(--administradores)!important; }
-.usergroup-group-narradores .topictitle-container .topictitle-image img {  border: 2px solid var(--narradores)!important; }
+.usergroup-group-narradores .topictitle-container .topictile-image img {  border: 2px solid var(--narradores)!important; }
 
 .usergroup-group-canalizador .topicbuttons span {  color: var(--canalizador); }
 .usergroup-group-guardian .topicbuttons span {  color: var(--guardian); }
