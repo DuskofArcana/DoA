@@ -1010,13 +1010,11 @@ div.combateficha > br {display:none}
 .pjstats {
     display: flex;
     width: 250px;
-    justify-content: space-evenly;
     font-family: Roboto Condensed;
     font-size: 6.5pt;
     font-weight: 400;
     justify-content: space-evenly;
     letter-spacing: 1px;
-    margin: auto;
     text-align: center;
     text-transform: uppercase;
     border-top: 1px solid #1c1c1c;
@@ -1024,24 +1022,13 @@ div.combateficha > br {display:none}
     padding: 5px;
     margin: 15px 0;
 }
-
-.pjstats strong{
-    color:var(--accent);
-    margin-right:1px;
-}
-.pjstats strong:before {
-	color: #424140;
+pp:before {
+    color: #424140;
     content: "\f111";
     font-family: FontAwesome;
     font-size: 3px;
     position: relative;
-    top: -2px;
-    right: 4px;
 }
-.pjstats strong:nth-of-type(1):before {
-    display:none;
-}
-
 progress[value]{
     -moz-appearance:none;
     -webkit-appearance:none;
@@ -1107,7 +1094,6 @@ progress[value]{
     text-transform:uppercase;
     width:200px;
 }
-
 .combateinfo{
     width: 525px;
     margin: 0 auto;
