@@ -1174,7 +1174,9 @@ progress[value]{
 .canalizador progress::-webkit-progress-bar {border-bottom-color: var(--canalizador) !important;}
 .canalizador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--canalizador);}
 .canalizador .combatehab:before { border-bottom: 1px solid var(--canalizador);}
+.canalizador .combateinv:before { border-bottom: 1px solid var(--canalizador);}
 .canalizador .combatehab strong { color:var(--canalizador);}
+.canalizador .combateinv strong { color:var(--canalizador);}
 
 .orador .pjname:before{color:var(--orador);content:"\e907";font-family:honeybee;border-color:var(--orador);font-weight: 400}
 .orador .combatpvre progress:before,.orador .pjstats strong{color:var(--orador);}
@@ -1182,7 +1184,9 @@ progress[value]{
 .orador progress::-webkit-progress-bar {border-bottom-color: var(--orador) !important;}
 .orador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
 .orador .combatehab:before { border-bottom: 1px solid var(--orador);}
+.orador .combateinv:before { border-bottom: 1px solid var(--orador);}
 .orador .combatehab strong { color:var(--orador);}
+.orador .combateinv strong { color:var(--orador);}
 
 .guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400}
 .guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
@@ -1190,7 +1194,9 @@ progress[value]{
 .guardian progress::-webkit-progress-bar {border-bottom-color: var(--guardian) !important;}
 .guardian .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--guardian);}
 .guardian .combatehab:before { border-bottom: 1px solid var(--guardian);}
+.guardian .combateinv:before { border-bottom: 1px solid var(--guardian);}
 .guardian .combatehab strong { color:var(--guardian);}
+.guardian .combateinv strong { color:var(--guardian);}
 
 .hostigador .pjname:before{color:var(--hostigador);content:"\ec74";font-family:honeybee;border-color:var(--hostigador);font-weight: 400}
 .hostigador .combatpvre progress:before,.hostigador .pjstats strong{color:var(--hostigador)}
@@ -1198,4 +1204,6 @@ progress[value]{
 .hostigador progress::-webkit-progress-bar {border-bottom-color: var(--hostigador) !important;}
 .hostigador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--hostigador);}
 .hostigador .combatehab:before { border-bottom: 1px solid var(--hostigador);}
+.hostigador .combateinv:before { border-bottom: 1px solid var(--hostigador);}
 .hostigador .combatehab strong { color:var(--hostigador);} 
+.hostigador .combateinv strong { color:var(--hostigador);}  
