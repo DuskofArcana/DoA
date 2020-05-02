@@ -1468,3 +1468,11 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
    background-position: bottom;
 }
 .colorpicker { z-index: 3; }
+
+div.sceditor-dropdown {
+	border: 0px!important;
+}
+
+div.sceditor-dropdown input, div.sceditor-dropdown textarea {
+       border: 0px!important;
+}
