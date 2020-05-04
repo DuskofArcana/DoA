@@ -1170,6 +1170,8 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
       width: 220px;
       height: 120px;
       line-height: 11pt;
+	padding-right: 10px;
+    box-sizing: border-box;
 }
 
 .combatediv2 .combateinv{
