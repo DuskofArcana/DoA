@@ -913,6 +913,7 @@ font-weight: bold;
     width: 100%;
     text-align: justify;
     font: 400 9pt Fira Sans;
+    text-transform: none;
 }
 
 .skill-descrip {
