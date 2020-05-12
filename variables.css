@@ -909,12 +909,15 @@ font-weight: bold;
 }
 
 .skill-descfija {
-	margin-bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: justify;
+    font: 400 9pt Fira Sans;
 }
 
 .skill-descrip {
   font: 400 9pt Fira Sans;
-  text-align: left;
+  text-align: justify;
   text-transform: initial;
   position: relative;
   width: 100%;
