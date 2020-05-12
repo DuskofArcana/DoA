@@ -878,9 +878,9 @@ font-weight: bold;
   font: 700 8pt Poppins;
 }
 .skill-barra .skill-punto [class^="p-"] {
-  position: relative;
-  top: -10px;
-  cursor: pointer;
+    position: relative;
+    top: -12px;
+    cursor: pointer;
 }
 .skill-barra .skill-punto [class^="p-"]:after {
     -webkit-transition: .3s;
