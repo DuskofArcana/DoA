@@ -888,7 +888,7 @@ font-weight: bold;
     border-radius: 50%;
     content: "";
     height: 12px;
-    left: 70%;
+    left: 50%;
     transform: translateX(-50%);
     position: absolute;
     top: 23px;
@@ -896,7 +896,7 @@ font-weight: bold;
     width: 12px;
 }
 .skill-barra .skill-punto .p-2 {
-  margin: 0 54px;
+  margin: 0 60px;
 }
 
 .punto-activo:after {
