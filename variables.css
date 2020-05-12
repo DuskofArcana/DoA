@@ -976,6 +976,7 @@ div.combateficha > br {display:none}
     overflow: auto; 
     font-family: Fira Sans;
     font-size: 8.5pt;
+padding-right: 5px;
 }
 
 .pjdatos{
