@@ -105,7 +105,8 @@
 .userprofile-group-inactivo .profileicon { border: 1px solid var(--inactivo);} 
 
 .userprofile-group-canalizador .profileicon span:after {  color: var(--canalizador); content: '\eb57';}
-.userprofile-group-guardian .profileicon span:after {  color: var(--guardian); content: '\e075'; font-family:'saturnicons';}
+.userprofile-group-guardian .profileicon span:after { color: var(--guardian); content: '\e075'; font-family:'saturnicons'; line-height: 35.5px;
+font-size: 15pt; left: 7px;}
 .userprofile-group-hostigador .profileicon span:after {  color: var(--hostigador); content: '\ec74';}
 .userprofile-group-orador .profileicon span:after { color: var(--orador); content: '\e907';}
 .userprofile-group-inactivo .profileicon span:after {  color: var(--inactivo); content: '\e2f9'; font-family:'saturnicons';}  
