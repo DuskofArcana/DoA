@@ -184,10 +184,14 @@ font-size: 15pt; left: 7px;}
     position: relative;
     left: -40px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.best-div1 { 
+
+.best-div1 {
     width: 230px;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .tab-image {
@@ -228,14 +232,7 @@ font-size: 15pt; left: 7px;}
     line-height: 13pt;
     position: relative;
     top: -20px;
-}
-
-.best-dest {
-    font-family: Old Standard TT;
-    font-weight: bold;
-    font-size: 8pt; 
-    text-transform: uppercase;
-    color: var(--accent);
+    white-space: pre-wrap;
 }
 
 .best-info .th.th-circle {
@@ -244,6 +241,10 @@ font-size: 15pt; left: 7px;}
 
 .best-info .th.th {
     font-size: 7pt; 
+}
+
+.best-info span.th {
+    margin-right: 4px;
 }
  
 /*** FICHA ***/
