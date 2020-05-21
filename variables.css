@@ -246,6 +246,8 @@ font-size: 15pt; left: 7px;}
 
 .best-info strong {
     text-transform: uppercase;
+	font-family: Poppins;
+    font-size: 8pt;
 }
 
 .best-info .th.th-circle {
