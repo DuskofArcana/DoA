@@ -182,7 +182,7 @@ font-size: 15pt; left: 7px;}
 .best-div {
     width: 480px;
     position: relative;
-    left: -40px;
+    left: -50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -222,7 +222,7 @@ font-size: 15pt; left: 7px;}
     letter-spacing: 1px;
     line-height: 6.5pt;
     position: relative;
-    top: -20px;
+    top: -17px;
     text-align: center;
 }
 
@@ -233,6 +233,19 @@ font-size: 15pt; left: 7px;}
     position: relative;
     top: -20px;
     white-space: pre-wrap;
+}
+
+.best-dest {
+    font-family: Old Standard TT;
+    font-weight: bold;
+    font-size: 8pt; 
+    text-transform: uppercase;
+    color: var(--accent);
+    white-space: pre-wrap;
+}
+
+.best-info strong {
+    text-transform: uppercase;
 }
 
 .best-info .th.th-circle {
@@ -587,7 +600,7 @@ pjhab span {
     font-weight: 700;
     text-transform: uppercase;
     border-bottom: 1px solid var(--accent);
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
