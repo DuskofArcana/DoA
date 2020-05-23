@@ -4,23 +4,23 @@
 .usergroup-group-guardian .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--guardian), #777);}
 .usergroup-group-hostigador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--hostigador), #777);}
 .usergroup-group-orador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--orador), #777);}
-.usergroup-group-inactivo .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--inactivo), #777);}
+.usergroup-group-inactivo .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--inactivo), #777)!important;}
 .usergroup-group-administradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--administradores), #777);}
 .usergroup-group-narradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--narradores), #777);}
 
-.usergroup-group-canalizador .topictitle-container .topictitle-image img {  border: 2px solid var(--canalizador)!important; }
-.usergroup-group-guardian .topictitle-container .topictitle-image img {  border: 2px solid var(--guardian)!important; }
-.usergroup-group-hostigador .topictitle-container .topictitle-image img {  border: 2px solid var(--hostigador)!important; }
-.usergroup-group-orador .topictitle-container .topictitle-image img {  border: 2px solid var(--orador)!important; }
+.usergroup-group-canalizador .topictitle-container .topictitle-image img {  border: 2px solid var(--canalizador); }
+.usergroup-group-guardian .topictitle-container .topictitle-image img {  border: 2px solid var(--guardian); }
+.usergroup-group-hostigador .topictitle-container .topictitle-image img {  border: 2px solid var(--hostigador); }
+.usergroup-group-orador .topictitle-container .topictitle-image img {  border: 2px solid var(--orador); }
 .usergroup-group-inactivo .topictitle-container .topictitle-image img {  border: 2px solid var(--inactivo)!important; }
-.usergroup-group-administradores .topictitle-container .topictitle-image img {  border: 2px solid var(--administradores)!important; }
-.usergroup-group-narradores .topictitle-container .topictitle-image img {  border: 2px solid var(--narradores)!important; }
+.usergroup-group-administradores .topictitle-container .topictitle-image img {  border: 2px solid var(--administradores); }
+.usergroup-group-narradores .topictitle-container .topictitle-image img {  border: 2px solid var(--narradores); }
 
 .usergroup-group-canalizador .topicbuttons span {  color: var(--canalizador); }
 .usergroup-group-guardian .topicbuttons span {  color: var(--guardian); }
 .usergroup-group-hostigador .topicbuttons span {  color: var(--hostigador); }
 .usergroup-group-orador .topicbuttons span { color: var(--orador); }
-.usergroup-group-inactivo .topicbuttons span {  color: var(--inactivo); }
+.usergroup-group-inactivo .topicbuttons span {  color: var(--inactivo) !important; }
 .usergroup-group-administradores .topicbuttons span {  color: var(--administradores); }
 .usergroup-group-narradores .topicbuttons span {  color: var(--narradores); }
 
@@ -28,7 +28,7 @@
 .usergroup-group-guardian .postprofile-field-content {  color: var(--guardian); }
 .usergroup-group-hostigador .postprofile-field-content {  color: var(--hostigador); }
 .usergroup-group-orador .postprofile-field-content { color: var(--orador); }
-.usergroup-group-inactivo .postprofile-field-content {  color: var(--inactivo); }
+.usergroup-group-inactivo .postprofile-field-content {  color: var(--inactivo) !important; }
 .usergroup-group-administradores .postprofile-field-content {  color: var(--administradores); }
 .usergroup-group-narradores .postprofile-field-content {  color: var(--narradores); }
 
@@ -36,51 +36,13 @@
 .usergroup-group-guardian .postprofile a:active, .usergroup-group-guardian .postprofile a:link, .usergroup-group-guardian .postprofile a:visited,  .usergroup-group-guardian.postprofile dt.author a {  color: var(--guardian); }
 .usergroup-group-hostigador .postprofile-contact a:active, .usergroup-group-hostigador .postprofile-contact a:link, .usergroup-group-hostigador .postprofile-contact a:visited, .usergroup-group-hostigador .postprofile-contact dt.author a {  color: var(--hostigador); }
 .usergroup-group-orador .postprofile a:active, .usergroup-group-orador  .postprofile a:link, .usergroup-group-orador  .postprofile a:visited, .usergroup-group-orador  .postprofile dt.author a { color: var(--orador); }
-.usergroup-group-inactivo .postprofile a:active, .usergroup-group-inactivo .postprofile a:link, .usergroup-group-inactivo .postprofile a:visited, .usergroup-group-inactivo .postprofile dt.author a { color: var(--inactivo); }
-
-.usergroup-group-canalizador .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--canalizador), #777);}
-.usergroup-group-guardian .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--guardian), #777);}
-.usergroup-group-hostigador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--hostigador), #777);}
-.usergroup-group-orador .topictitle-container  { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--orador), #777);}
-.usergroup-group-inactivo .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--inactivo), #777);}
-.usergroup-group-administradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--administradores), #777);}
-.usergroup-group-narradores .topictitle-container { background-image: url(https://i.imgur.com/QaYZFEU.jpg), linear-gradient(var(--narradores), #777);}
-
-.usergroup-group-canalizador .topictitle-container .topictitle-image img {  border: 2px solid var(--canalizador)!important; }
-.usergroup-group-guardian .topictitle-container .topictitle-image img {  border: 2px solid var(--guardian)!important; }
-.usergroup-group-hostigador .topictitle-container .topictitle-image img {  border: 2px solid var(--hostigador)!important; }
-.usergroup-group-orador .topictitle-container .topictitle-image img {  border: 2px solid var(--orador)!important; }
-.usergroup-group-inactivo .topictitle-container .topictitle-image img {  border: 2px solid var(--inactivo)!important; }
-.usergroup-group-administradores .topictitle-container .topictitle-image img {  border: 2px solid var(--administradores)!important; }
-.usergroup-group-narradores .topictitle-container .topictitle-image img {  border: 2px solid var(--narradores)!important; }
-
-.usergroup-group-canalizador .topicbuttons span {  color: var(--canalizador); }
-.usergroup-group-guardian .topicbuttons span {  color: var(--guardian); }
-.usergroup-group-hostigador .topicbuttons span {  color: var(--hostigador); }
-.usergroup-group-orador .topicbuttons span { color: var(--orador); }
-.usergroup-group-inactivo .topicbuttons span {  color: var(--inactivo); }
-.usergroup-group-administradores .topicbuttons span {  color: var(--administradores); }
-.usergroup-group-narradores .topicbuttons span {  color: var(--narradores); }
-
-.usergroup-group-canalizador .postprofile-field-content {  color: var(--canalizador); }
-.usergroup-group-guardian .postprofile-field-content {  color: var(--guardian); }
-.usergroup-group-hostigador .postprofile-field-content {  color: var(--hostigador); }
-.usergroup-group-orador .postprofile-field-content { color: var(--orador); }
-.usergroup-group-inactivo .postprofile-field-content {  color: var(--inactivo); }
-.usergroup-group-administradores .postprofile-field-content {  color: var(--administradores); }
-.usergroup-group-narradores .postprofile-field-content {  color: var(--narradores); }
-
-.usergroup-group-canalizador .postprofile-contact a:active, .usergroup-group-canalizador .postprofile-contact a:link, .usergroup-group-canalizador .postprofile a:visited, .usergroup-group-canalizador .postprofile dt.author a{  color: var(--canalizador); }
-.usergroup-group-guardian .postprofile a:active, .usergroup-group-guardian .postprofile a:link, .usergroup-group-guardian .postprofile a:visited,  .usergroup-group-guardian.postprofile dt.author a {  color: var(--guardian); }
-.usergroup-group-hostigador .postprofile-contact a:active, .usergroup-group-hostigador .postprofile-contact a:link, .usergroup-group-hostigador .postprofile-contact a:visited, .usergroup-group-hostigador .postprofile-contact dt.author a {  color: var(--hostigador); }
-.usergroup-group-orador .postprofile a:active, .usergroup-group-orador  .postprofile a:link, .usergroup-group-orador  .postprofile a:visited, .usergroup-group-orador  .postprofile dt.author a { color: var(--orador); }
-.usergroup-group-inactivo .postprofile a:active, .usergroup-group-inactivo .postprofile a:link, .usergroup-group-inactivo .postprofile a:visited, .usergroup-group-inactivo .postprofile dt.author a { color: var(--inactivo); }
+.usergroup-group-inactivo .postprofile a:active, .usergroup-group-inactivo .postprofile a:link, .usergroup-group-inactivo .postprofile a:visited, .usergroup-group-inactivo .postprofile dt.author a { color: var(--inactivo) !important; }
 
 .usergroup-group-canalizador .postprofilerankicon:before {  color: var(--canalizador); content: '\eb57';}
 .usergroup-group-guardian .postprofilerankicon:before {  color: var(--guardian); content: '\e075'; font-family:'saturnicons';}
 .usergroup-group-hostigador .postprofilerankicon:before {  color: var(--hostigador); content: '\ec74';}
 .usergroup-group-orador .postprofilerankicon:before { color: var(--orador); content: '\e907';}
-.usergroup-group-inactivo .postprofilerankicon:before {  color: var(--inactivo); content: '\e2f9'; font-family:'saturnicons';}
+.usergroup-group-inactivo .postprofilerankicon:before {  color: var(--inactivo) !important; content: '\e2f9' !important; font-family:'saturnicons' !important;}
 .usergroup-group-administradores .postprofilerankicon:before { color: var(--administradores); }
 .usergroup-group-narradores .postprofilerankicon:before { color: var(--narradores);}
 
@@ -88,7 +50,7 @@
 .usergroup-group-guardian .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--guardian);}
 .usergroup-group-hostigador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--hostigador);}
 .usergroup-group-orador .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--orador);}
-.usergroup-group-inactivo .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--inactivo);}  
+.usergroup-group-inactivo .postprofile2 .postprofile-field.postprofile-field-edad:after{ color: var(--inactivo) !important;}  
 .usergroup-group-administradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--administradores); }
 .usergroup-group-narradores .postprofile2 .postprofile-field.postprofile-field-edad:after { color: var(--narradores);}
 
@@ -96,62 +58,61 @@
 .userprofile-group-guardian .profilelinks a { color: var(--guardian);}
 .userprofile-group-hostigador .profilelinks a { color: var(--hostigador);}
 .userprofile-group-orador .profilelinks a { color: var(--orador);}
-.userprofile-group-inactivo .profilelinks a{ color: var(--inactivo);}
+.userprofile-group-inactivo .profilelinks a{ color: var(--inactivo) !important;}
 
 .userprofile-group-canalizador .profileicon { border: 1px solid var(--canalizador);}
 .userprofile-group-guardian .profileicon  { border: 1px solid var(--guardian);}
 .userprofile-group-hostigador .profileicon  { border: 1px solid var(--hostigador);}
 .userprofile-group-orador .profileicon  { border: 1px solid var(--orador);}
-.userprofile-group-inactivo .profileicon { border: 1px solid var(--inactivo);} 
+.userprofile-group-inactivo .profileicon { border: 1px solid var(--inactivo) !important;} 
 
 .userprofile-group-canalizador .profileicon span:after {  color: var(--canalizador); content: '\eb57';}
-.userprofile-group-guardian .profileicon span:after { color: var(--guardian); content: '\e075'; font-family:'saturnicons'; line-height: 35.5px;
-font-size: 15pt; left: 7px;}
+.userprofile-group-guardian .profileicon span:after { color: var(--guardian); content: '\e075'; font-family:'saturnicons'; line-height: 35.5px; font-size: 15pt; left: 7px;}
 .userprofile-group-hostigador .profileicon span:after {  color: var(--hostigador); content: '\ec74';}
 .userprofile-group-orador .profileicon span:after { color: var(--orador); content: '\e907';}
-.userprofile-group-inactivo .profileicon span:after {  color: var(--inactivo); content: '\e2f9'; font-family:'saturnicons';}  
+.userprofile-group-inactivo .profileicon span:after {  color: var(--inactivo) !important; content: '\e2f9' !important; font-family:'saturnicons' !important;}  
 
 .userprofile-group-canalizador .profilecontent { color: var(--canalizador);}
 .userprofile-group-guardian .profilecontent  { color: var(--guardian);}
 .userprofile-group-hostigador .profilecontent  { color: var(--hostigador);}
 .userprofile-group-orador .profilecontent  { color: var(--orador);}
-.userprofile-group-inactivo .profilecontent { color: var(--inactivo);} 
+.userprofile-group-inactivo .profilecontent { color: var(--inactivo) !important;} 
 
 .userprofile-group-canalizador progress[value] { color: var(--canalizador);}
 .userprofile-group-guardian progress[value] { color: var(--guardian);}
 .userprofile-group-hostigador progress[value]  { color: var(--hostigador);}
 .userprofile-group-orador progress[value]  { color: var(--orador);}
-.userprofile-group-inactivo progress[value] { color: var(--inactivo);} 
+.userprofile-group-inactivo progress[value] { color: var(--inactivo) !important;} 
 
 .userprofile-group-canalizador progress[value]::-webkit-progress-value {background: var(--canalizador);}
 .userprofile-group-guardian progress[value]::-webkit-progress-value {background: var(--guardian);}
 .userprofile-group-hostigador progress[value]::-webkit-progress-value {background: var(--hostigador);}
 .userprofile-group-orador progress[value]::-webkit-progress-value {background: var(--orador);}
-.userprofile-group-inactivo progress[value]::-webkit-progress-value {background: var(--inactivo);}
+.userprofile-group-inactivo progress[value]::-webkit-progress-value {background: var(--inactivo) !important;}
 
 .userprofile-group-canalizador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--canalizador);}
 .userprofile-group-guardian progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--guardian);}
 .userprofile-group-hostigador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--hostigador);}
 .userprofile-group-orador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--orador);}
-.userprofile-group-inactivo progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--inactivo);}
+.userprofile-group-inactivo progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--inactivo) !important;}
 
 .userprofile-group-canalizador rpghab:before { color: var(--canalizador);}
 .userprofile-group-guardian rpghab:before { color: var(--guardian);}
 .userprofile-group-hostigador rpghab:before  { color: var(--hostigador);}
 .userprofile-group-orador rpghab:before { color: var(--orador);}
-.userprofile-group-inactivo rpghab:before { color: var(--inactivo);} 
+.userprofile-group-inactivo rpghab:before { color: var(--inactivo) !important;} 
 
 .userprofile-group-canalizador .rpginv strong  { color: var(--canalizador);}
 .userprofile-group-guardian .rpginv strong  { color: var(--guardian);}
 .userprofile-group-hostigador .rpginv strong  { color: var(--hostigador);}
 .userprofile-group-orador .rpginv strong  { color: var(--orador);}
-.userprofile-group-inactivo .rpginv strong  { color: var(--inactivo);} 
+.userprofile-group-inactivo .rpginv strong  { color: var(--inactivo) !important;} 
 
 .userprofile-group-canalizador .posterank  { color: var(--canalizador);}
 .userprofile-group-guardian .posterank  { color: var(--guardian);}
 .userprofile-group-hostigador .posterank { color: var(--hostigador);}
 .userprofile-group-orador .posterank { color: var(--orador);}
-.userprofile-group-inactivo .posterank { color: var(--inactivo);} 
+.userprofile-group-inactivo .posterank { color: var(--inactivo) !important;} 
 
 .userprofile-group-administrador .rpginv::-webkit-scrollbar-thumb {background: var(--accent);}
 .userprofile-group-narrador .rpginv::-webkit-scrollbar-thumb{background: var(--accent);}
@@ -159,13 +120,13 @@ font-size: 15pt; left: 7px;}
 .userprofile-group-guardian .rpginv::-webkit-scrollbar-thumb {background: var(--guardian);}
 .userprofile-group-hostigador .rpginv::-webkit-scrollbar-thumb {background: var(--hostigador);}
 .userprofile-group-orador .rpginv::-webkit-scrollbar-thumb{background: var(--orador);}
-.userprofile-group-inactivo .rpginv::-webkit-scrollbar-thumb {background: var(--inactivo);}
+.userprofile-group-inactivo .rpginv::-webkit-scrollbar-thumb {background: var(--inactivo) !important;}
 
 .usergroup-group-canalizador .expininner::-webkit-scrollbar-thumb {background: var(--canalizador);}
 .usergroup-group-guardian .expininner::-webkit-scrollbar-thumb {background: var(--guardian);}
 .usergroup-group-hostigador .expininner::-webkit-scrollbar-thumb {background: var(--hostigador);}
 .usergroup-group-orador .expininner::-webkit-scrollbar-thumb{background: var(--orador);}
-.usergroup-group-inactivo .expininner::-webkit-scrollbar-thumb {background: var(--inactivo);}
+.usergroup-group-inactivo .expininner::-webkit-scrollbar-thumb {background: var(--inactivo) !important;}
 
 
 /** BESTIARIO **/
