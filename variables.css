@@ -193,7 +193,7 @@
     line-height: 13pt;
     position: relative;
     top: -20px;
-    white-space: pre-wrap;
+    white-space: pre-line;
 }
 
 .best-dest {
