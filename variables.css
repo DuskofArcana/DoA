@@ -70,7 +70,7 @@
 .userprofile-group-guardian .profileicon span:after { color: var(--guardian); content: '\e075'; font-family:'saturnicons'; line-height: 35.5px; font-size: 15pt; left: 7px;}
 .userprofile-group-hostigador .profileicon span:after {  color: var(--hostigador); content: '\ec74';}
 .userprofile-group-orador .profileicon span:after { color: var(--orador); content: '\e907';}
-.userprofile-group-inactivo .profileicon span:after {  color: var(--inactivo) !important; content: '\e2f9' !important; font-family:'saturnicons' !important;}  
+.userprofile-group-inactivo .profileicon span:after {  color: var(--inactivo) !important; content: '\e2f9' !important; font-family:'saturnicons' !important; position: relative; margin-left: -1px; top: -2px;}  
 
 .userprofile-group-canalizador .profilecontent { color: var(--canalizador);}
 .userprofile-group-guardian .profilecontent  { color: var(--guardian);}
