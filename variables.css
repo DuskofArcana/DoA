@@ -96,6 +96,12 @@
 .userprofile-group-orador progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--orador);}
 .userprofile-group-inactivo progress[value]::-webkit-progress-bar {border-bottom: 1px solid var(--inactivo) !important;}
 
+.userprofile-group-canalizador progress[value]::-moz-progress-bar {background: var(--canalizador);border-color: var(--canalizador) !important;}
+.userprofile-group-guardian progress[value]::-moz-progress-bar {background: var(--guardian);border-color: var(--guardian) !important;}
+.userprofile-group-hostigador progress[value]::-moz-progress-bar {background: var(--hostigador);border-color: var(--hostigador) !important;}
+.userprofile-group-orador progress[value]::-moz-progress-bar {background: var(--orador);border-color: var(--orador) !important;}
+.userprofile-group-inactivo progress[value]::-moz-progress-bar {background: var(--inactivo);border-color: var(--inactivo) !important;}
+
 .userprofile-group-canalizador rpghab:before { color: var(--canalizador);}
 .userprofile-group-guardian rpghab:before { color: var(--guardian);}
 .userprofile-group-hostigador rpghab:before  { color: var(--hostigador);}
@@ -1236,7 +1242,7 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 .canalizador .combatpvre progress:before,.canalizador .pjstats strong{color:var(--canalizador)}
 .canalizador .combatpvre progress[value]::-webkit-progress-value{background:var(--canalizador)}
 .canalizador progress::-webkit-progress-bar {border-bottom-color: var(--canalizador) !important;}
-.canalizador progress[value]::-moz-progress-bar {background: var(--canalizador); border-color: var(--canalizador);}
+.canalizador progress[value]::-moz-progress-bar {background: var(--canalizador); border-color: var(--canalizador) !impornta;}
 .canalizador progress[value] {color: var(--canalizador);}
 .canalizador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--canalizador);}
 .canalizador .combateinv .combateinner::-webkit-scrollbar-thumb{background: var(--canalizador);}
@@ -1253,7 +1259,7 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 .orador .combatpvre progress:before,.orador .pjstats strong{color:var(--orador);}
 .orador .combatpvre progress[value]::-webkit-progress-value{background:var(--orador);}
 .orador progress::-webkit-progress-bar {border-bottom-color: var(--orador) !important;}
-.orador progress[value]::-moz-progress-bar {background: var(--orador); border-color: var(--orador);}
+.orador progress[value]::-moz-progress-bar {background: var(--orador); border-color: var(--orador) !impornta;}
 .orador progress[value] {color: var(--orador);}
 .orador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
 .orador .combateinv .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
@@ -1270,7 +1276,7 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 .guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
 .guardian .combatpvre progress[value]::-webkit-progress-value{background:var(--guardian)}
 .guardian progress::-webkit-progress-bar {border-bottom-color: var(--guardian) !important;}
-.guardian progress[value]::-moz-progress-bar {background: var(--guardian); border-color: var(--guardian);}
+.guardian progress[value]::-moz-progress-bar {background: var(--guardian); border-color: var(--guardian) !impornta;}
 .guardian progress[value] {color: var(--guardian);}
 .guardian .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--guardian);}
 .guardian .combateinv .combateinner::-webkit-scrollbar-thumb{background: var(--guardian);}
@@ -1288,7 +1294,7 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
 .hostigador .combatpvre progress[value]::-webkit-progress-value{background:var(--hostigador)}
 .hostigador progress::-webkit-progress-bar {border-bottom-color: var(--hostigador) !important;}
 .hostigador progress[value] {color: var(--hostigador);}
-.hostigador progress[value]::-moz-progress-bar {background: var(--hostigador); border-color: var(--hostigador);}
+.hostigador progress[value]::-moz-progress-bar {background: var(--hostigador); border-color: var(--hostigador) !impornta;}
 .hostigador .combatehab .combateinner::-webkit-scrollbar-thumb{background: var(--hostigador);}
 .hostigador .combateinv .combateinner::-webkit-scrollbar-thumb{background: var(--hostigador);}
 .hostigador .combatehab:before { border-bottom: 1px solid var(--hostigador);}
