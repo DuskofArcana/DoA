@@ -90,6 +90,8 @@
 .userprofile-group-orador progress[value]::-webkit-progress-value {background: var(--orador);}
 .userprofile-group-inactivo progress[value]::-webkit-progress-value {background: var(--inactivo) !important;}
 
+progress[value]::-webkit-progress-bar {border: none;}
+
 .userprofile-group-canalizador progress[value]::-moz-progress-bar {background: var(--canalizador);border-color: var(--canalizador) !important;}
 .userprofile-group-guardian progress[value]::-moz-progress-bar {background: var(--guardian);border-color: var(--guardian) !important;}
 .userprofile-group-hostigador progress[value]::-moz-progress-bar {background: var(--hostigador);border-color: var(--hostigador) !important;}
