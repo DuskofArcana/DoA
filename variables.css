@@ -1165,11 +1165,14 @@ progress[value]{
     padding-bottom: 3px;
     margin: 0 10px -10px 0;
 }
-div.combateinner > br:nth-of-type(1) {
+.combateinner > br:nth-of-type(1) {
     display:none
 }
-div.combateinner2 > br:nth-of-type(1) {
+.combateinner2 > br:nth-of-type(1) {
     display:none
+}
+.combatetit ~ br:nth-of-type(1) {
+    display: block !important;
 }
 .combatediv2 .combateficha .combateinner {
     width: 220px;
