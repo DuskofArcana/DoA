@@ -1146,39 +1146,48 @@ progress[value]{
 .combateinv.combateinner .combateinv {
     color: var(--accent)!important;
 }
-
-.combateinner::-webkit-scrollbar{width: 1px;background-color: #000;}
-
+.combateinner::-webkit-scrollbar{
+    width: 1px;background-color: #000;
+}
 .combatediv2 { 
     display: flex;
     justify-content: center;
     position: relative;
     top: -12px;
 }
-
-div.combateinner > br:nth-of-type(1) {display:none}
-div.combateinner2 > br:nth-of-type(1) {display:none}
-
+.combatetit {
+    display: block;
+    font-family: Poppins;
+    font-size: 7pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 3px;
+    margin: 0 10px -10px 0;
+}
+div.combateinner > br:nth-of-type(1) {
+    display:none
+}
+div.combateinner2 > br:nth-of-type(1) {
+    display:none
+}
 .combatediv2 .combateficha .combateinner {
-      width: 220px;
-      height: 120px;
-      line-height: 11pt;
+    width: 220px;
+    height: 120px;
+    line-height: 11pt;
 	padding-right: 10px;
     box-sizing: border-box;
 }
-
 .combatediv2 .combateinv{
     width: 220px;
     margin: auto;
     padding-top: 10px;
 }
-
 .combatediv2 .combatehab {
     width: 220px;
     margin: auto;
     margin-top: 0;
 }
-
 .combatehab strong {
     color: var(--accent);
     font-family: Roboto Condensed;
@@ -1186,7 +1195,6 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
     text-transform: uppercase;
     font-weight: bold;
 }
-
 .combateficha2 {
     width: 260px;
     display: flex;
@@ -1200,7 +1208,6 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
     font-family: Fira Sans;
     font-size: 8.5pt;
 }
-
 .combatehab2 {
     display: block;
     font-family: Poppins;
@@ -1212,11 +1219,9 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
     padding-bottom: 3px;
     margin-right: 10px;
 }
-
 .combatehab2:before {
     content: "Habilidades";
 }
-
 .combateinv2 {
     border-bottom: 1px solid var(--accent);
     display: block;
@@ -1228,7 +1233,6 @@ div.combateinner2 > br:nth-of-type(1) {display:none}
     padding-bottom: 3px;
     text-transform: uppercase;
 }
-
 .combateinv2:before {
      content: "Inventario";
 }
