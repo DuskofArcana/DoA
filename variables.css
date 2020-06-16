@@ -943,12 +943,13 @@ font-weight: bold;
     font-size: 8.5pt;	
 }
 
-div.combateficha > br {display:none}
-
+.combateficha > br {
+    display:none
+}
 .combatpvre br, .pjstats br {
     display:none;
 }
- .combatediv{
+ .combatediv {
     display:flex;
     justify-content:center; 
 }
@@ -957,23 +958,22 @@ div.combateficha > br {display:none}
     overflow: auto; 
     font-family: Fira Sans;
     font-size: 8.5pt;
-padding-right: 5px;
+    padding-right: 5px;
 }
-
-.pjdatos{
+.pjdatos {
     width:100%;
     display:flex;
     flex-direction:column;
     align-items:center;
 }
-.pjname{
+.pjname {
     font-family:Poppins;
     font-size:10pt;
     font-weight:700;
     text-align:center;
     text-transform:uppercase;
 }
-.pjname:before{
+.pjname:before {
     color:var(--accent);
     content:'\ebef';
     font-family:honeybee;
@@ -987,7 +987,7 @@ padding-right: 5px;
     line-height:32px;
     margin:0 auto 6px;
 }
-.pjnivel{
+.pjnivel {
     font-family:Roboto Condensed;
     font-size:6.5pt;
     font-weight:400;
@@ -1022,7 +1022,7 @@ pp:before {
     font-size: 3px;
     position: relative;
 }
-progress[value]{
+progress[value] {
     -moz-appearance:none;
     -webkit-appearance:none;
     appearance:none;
@@ -1036,8 +1036,7 @@ progress[value]{
     border: none;
     border-bottom: 1px solid !important;
 }
-
-.combatpvre progress[value]{
+.combatpvre progress[value] {
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
@@ -1049,16 +1048,16 @@ progress[value]{
     margin:5px 0 0 8px;
     height:3px;
 }
-.combatpvre progress[value]::-webkit-progress-value{
+.combatpvre progress[value]::-webkit-progress-value {
     background:var(--accent);
 }
-.combatediv .pv:before{
+.combatediv .pv:before {
     content:"PV";
 }
-.combatediv .re:before{
+.combatediv .re:before {
     content:"RE";
 }
-.combatediv progress:before{
+.combatediv progress:before {
     font-family:poppins;
     font-size:8px;
     font-weight:700;
@@ -1067,7 +1066,7 @@ progress[value]{
     text-align:left;
     top:-14px;
 }
-.combatpvre span{
+.combatpvre span {
     color:#6e6e6e;
     font-family:Roboto Condensed;
     font-size:8px;
@@ -1076,11 +1075,11 @@ progress[value]{
     text-align:right;
     top:8px;
 }
-.combatpvre{
+.combatpvre {
     display:flex;
     flex-direction:column;
 }
-.combateatq{
+.combateatq {
     font-family:Roboto Condensed;
     font-size:7.5pt;
     margin:auto;
@@ -1090,7 +1089,7 @@ progress[value]{
     text-transform:uppercase;
     width:200px;
 }
-.combateinfo{
+.combateinfo {
     width: 525px;
     margin: 0 auto;
     display: flex;
@@ -1101,23 +1100,23 @@ progress[value]{
     top: -12px;
     left: -3px;
 }
-.combateinner strong{
+.combateinner strong {
     color:var(--accent);
     text-transform:uppercase;
     font-family: Roboto Condensed;
     font-size:7pt;
 }
-.combatehab {
+.combatehab  {
     width: 50%;
     line-height: 10pt;
     margin-right: 15px;
 }
- .combateinv {
+ .combateinv  {
     width: 50%;
     line-height: 10pt;
 }
 
-.combatehab:before{
+.combatehab:before {
     content: "Habilidades";
     width: 100%;
     display: block;
@@ -1130,7 +1129,7 @@ progress[value]{
     font-weight: bold; 
     text-align: right;
 }
-.combateinv:before{
+.combateinv:before {
     content: "Inventario";
     width: 100%;
     display: block;
@@ -1143,10 +1142,10 @@ progress[value]{
     font-size: 7pt;
     font-weight: bold; 
 }
-.combateinv.combateinner .combateinv {
+.combateinv.combateinner .combateinv  {
     color: var(--accent)!important;
 }
-.combateinner::-webkit-scrollbar{
+.combateinner::-webkit-scrollbar {
     width: 1px;background-color: #000;
 }
 .combatediv2 { 
@@ -1257,6 +1256,7 @@ progress[value]{
 .canalizador .combateinner::-webkit-scrollbar-thumb{background: var(--canalizador);}
 .canalizador .combateinv2 {border-bottom-color: var(--canalizador);}
 .canalizador .combatehab2 {border-bottom-color: var(--canalizador);}
+.canalizador .combatetit {border-bottom-color: var(--canalizador);}
 
 .orador .pjname:before{color:var(--orador);content:"\e907";font-family:honeybee;border-color:var(--orador);font-weight: 400}
 .orador .combatpvre progress:before,.orador .pjstats strong{color:var(--orador);}
@@ -1274,6 +1274,7 @@ progress[value]{
 .orador .combateinner::-webkit-scrollbar-thumb{background: var(--orador);}
 .orador .combateinv2 {border-bottom-color: var(--orador);}
 .orador .combatehab2 {border-bottom-color: var(--orador);}
+.orador .combatetit {border-bottom-color: var(--orador);}
 
 .guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400}
 .guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
@@ -1291,6 +1292,7 @@ progress[value]{
 .guardian .combateinner::-webkit-scrollbar-thumb{background: var(--guardian);}
 .guardian .combateinv2 {border-bottom-color: var(--guardian);}
 .guardian .combatehab2 {border-bottom-color: var(--guardian);}
+.guardian .combatetit {border-bottom-color: var(--guardian);}
 
 .hostigador .pjname:before{color:var(--hostigador);content:"\ec74";font-family:honeybee;border-color:var(--hostigador);font-weight: 400}
 .hostigador .combatpvre progress:before,.hostigador .pjstats strong{color:var(--hostigador)}
@@ -1308,6 +1310,7 @@ progress[value]{
 .hostigador .combateinner::-webkit-scrollbar-thumb{background: var(--hostigador);}
 .hostigador .combateinv2 {border-bottom-color: var(--hostigador);}
 .hostigador .combatehab2 {border-bottom-color: var(--hostigador);}
+.hostigador .combatetit {border-bottom-color: var(--hostigador);}
 
 
 /** SELECTOR **/
