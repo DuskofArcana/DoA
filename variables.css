@@ -1497,8 +1497,8 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
     margin: 0 auto;
     width: 520px;
     background-color: #030303;
-    border-top: 2px solid #101010;
-    border-bottom: 2px solid #101010;
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
     box-sizing: border-box;
     text-align: justify;
 }
@@ -1512,7 +1512,7 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
     text-align: center;
     text-transform: uppercase;
     padding: 25px 0 20px;
-    border-bottom: 2px solid #101010;
+    border-bottom: 1px solid #101010;
 }
 
 .trama-sub:before {
@@ -1532,7 +1532,7 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
 
 .trama-ext {
     padding: 30px 50px;
-    border-top: 2px solid #101010;
+    border-top: 1px solid #101010;
 }
 
 .usergroup-group-canalizador .trama-sub:before {
@@ -1573,4 +1573,10 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
 
 .usergroup-group-guardian .trama-ext strong {
     color: var(--guardian);
+}
+
+.usergroup-group-administradores .trama-sub:before {
+    content: "\ec74" !important;
+    font-family: "honeybee" !important;
+    color: var(--hostigador);
 }
