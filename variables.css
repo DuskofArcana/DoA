@@ -1576,7 +1576,7 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
 }
 
 .usergroup-group-administradores .trama-sub:before {
-    content: "\ec74" !important;
-    font-family: "honeybee" !important;
-    color: var(--hostigador);
+    content: "\ebef"!important;
+    font-family: "honeybee"!important;
+    color: var(--accent);
 }
