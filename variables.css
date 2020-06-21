@@ -1276,7 +1276,7 @@ progress[value] {
 .orador .combatehab2 {border-bottom-color: var(--orador);}
 .orador .combatetit {border-bottom-color: var(--orador);}
 
-.guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400}
+.guardian .pjname:before{color:var(--guardian);content:"\e075";font-family:"saturnicons"!important;border-color:var(--guardian);font-weight: 400; font-size: 23px;}
 .guardian .combatpvre progress:before,.guardian .pjstats strong{color:var(--guardian)}
 .guardian .combatpvre progress[value]::-webkit-progress-value{background:var(--guardian)}
 .guardian progress::-webkit-progress-bar {border-bottom-color: var(--guardian) !important;}
