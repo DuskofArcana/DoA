@@ -104,6 +104,14 @@ progress[value]::-webkit-progress-bar {border: none;}
 .userprofile-group-orador rpghab:before { color: var(--orador);}
 .userprofile-group-inactivo rpghab:before { color: var(--inactivo) !important;} 
 
+.userprofile-group-administrador .rpghab::-webkit-scrollbar-thumb {background: var(--accent);}
+.userprofile-group-narrador .rpghab::-webkit-scrollbar-thumb{background: var(--accent);}
+.userprofile-group-canalizador .rpghab::-webkit-scrollbar-thumb {background: var(--canalizador);}
+.userprofile-group-guardian .rpghab::-webkit-scrollbar-thumb {background: var(--guardian);}
+.userprofile-group-hostigador .rpghab::-webkit-scrollbar-thumb {background: var(--hostigador);}
+.userprofile-group-orador .rpghab::-webkit-scrollbar-thumb{background: var(--orador);}
+.userprofile-group-inactivo .rpghab::-webkit-scrollbar-thumb {background: var(--inactivo) !important;}
+
 .userprofile-group-canalizador .rpginv strong  { color: var(--canalizador);}
 .userprofile-group-guardian .rpginv strong  { color: var(--guardian);}
 .userprofile-group-hostigador .rpginv strong  { color: var(--hostigador);}
