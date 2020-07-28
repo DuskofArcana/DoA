@@ -1588,3 +1588,98 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
     font-family: "honeybee"!important;
     color: var(--accent);
 }
+
+.timeline {display: flex;}
+
+.timeline .legend {
+    font-family: Poppins;
+    font-size: 7pt;
+    font-weight: 700;
+    text-transform: uppercase;  
+    margin-right: 20px;
+    margin-left: -4px;
+}
+
+.timeline-lcontainer {  
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+}
+
+.timeline-container { 
+    margin-left: 260px;
+    width: 900px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: Fira Sans;
+    font-size: 8pt;
+}
+
+.timeline ul {
+    padding: 1em 0 0 2em;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+.timeline ul::before {
+    content: ' ';
+    height: 100%;
+    width: 1px;
+    background-color: var(--grey);
+    position: absolute;
+    top: 0;
+    left: 2.5em;
+    z-index: -1;
+}
+
+.timeline li div {
+    display: inline-block;
+    margin: 8px 0;
+    vertical-align: top;
+}
+
+.timeline .bullet.accent {
+    border: 2px solid var(--accent);
+}
+.timeline .bullet.tramas {
+    border: 2px solid var(--visionario);
+}
+.timeline .bullet.situacion {
+    border: 2px solid var(--accent2);
+}
+.timeline .bullet {
+    background: #000;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 1.5em;
+    margin-right: 1em;
+    width: 1.5em; 
+    margin-left: -2px;
+}
+
+.timeline .time {
+    font-family: Poppins;
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 5%; 
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.timeline .desc {
+  width: 35%;
+margin-top: 9px;
+}
+
+.timeline .desc a{
+  color: var(--visionario);
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 7pt;
+  font-weight: bold;
+      line-height: 5px;
+}  
