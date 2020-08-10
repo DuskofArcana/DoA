@@ -124,6 +124,12 @@ progress[value]::-webkit-progress-bar {border: none;}
 .userprofile-group-orador .posterank { color: var(--orador);}
 .userprofile-group-inactivo .posterank { color: var(--inactivo) !important;}
 
+.userprofile-group-canalizador .profileventajas  { background-color: var(--canalizador);}
+.userprofile-group-guardian .profileventajas  { background-color: var(--guardian);}
+.userprofile-group-hostigador .profileventajas { cbackground-olor: var(--hostigador);}
+.userprofile-group-orador .profileventajas { cbackground-olor: var(--orador);}
+.userprofile-group-inactivo .profileventajas { cbackground-olor: var(--inactivo) !important;} 
+
 .userprofile-group-administrador .rpginv::-webkit-scrollbar-thumb {background: var(--accent);}
 .userprofile-group-narrador .rpginv::-webkit-scrollbar-thumb{background: var(--accent);}
 .userprofile-group-canalizador .rpginv::-webkit-scrollbar-thumb {background: var(--canalizador);}
@@ -629,7 +635,7 @@ pjhab span {
 rpghab span {font-family: Roboto Condensed;display: block;text-align: center;text-transform: uppercase;font-size: 9px;letter-spacing: 1px;font-weight: normal;}
 rpghab {display:inline-flex;flex-direction:column;font-family:Poppins;font-size:10px;font-weight:700;line-height:10px;margin-bottom:15px;text-align:center;text-transform:uppercase;width:110px;}
 rpghab:before {display:block;font-size:20px;line-height:1.5;position:relative;}
-.rpghab {height: 200px;overflow: auto;width: 340px;}
+.rpghab {height: 210px;overflow: auto;width: 340px;}
 
 .rpghab .aura:before {content:"\ec0a";font-family:honeybee; font-weight: normal;}
 .rpghab .magica:before {content:"\ec7f";font-family:honeybee; font-weight: normal;}
