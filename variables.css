@@ -126,8 +126,8 @@ progress[value]::-webkit-progress-bar {border: none;}
 
 .userprofile-group-canalizador .profileventajas  { background-color: var(--canalizador);}
 .userprofile-group-guardian .profileventajas  { background-color: var(--guardian);}
-.userprofile-group-hostigador .profileventajas { cbackground-olor: var(--hostigador);}
-.userprofile-group-orador .profileventajas { cbackground-olor: var(--orador);}
+.userprofile-group-hostigador .profileventajas { background-color: var(--hostigador);}
+.userprofile-group-orador .profileventajas { background-color: var(--orador);}
 .userprofile-group-inactivo .profileventajas { cbackground-olor: var(--inactivo) !important;} 
 
 .userprofile-group-administrador .rpginv::-webkit-scrollbar-thumb {background: var(--accent);}
