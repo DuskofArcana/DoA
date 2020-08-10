@@ -166,7 +166,15 @@ $(document).ready(function() {
             i = $(this).attr("ocupacion"),
             r = $(this).attr("nacionalidad"),
             d = $(this).parents(".post");
-        d.find(".postprofile-avatar img").attr("src", e), d.find(".topictitle-image img").attr("src", a), d.find(".topic-title strong").text(s), d.find(".postprofile-field-edad .postprofile-field-content").text(t), d.find(".postprofile-field-nacionalidad .postprofile-field-content").text(r), d.find(".postprofile-field-ocupacion .postprofile-field-content").text(i), "/u2" != d.find(".topic-title a").attr("href") && (d.addClass("usergroup-group-inactivo"), d.find(".topic-title").append('<span class="pnj-span">Modo PNJ</span>'), d.find(".postprofile-rank").text("PNJ"), d.find(".topic-title a span").addClass("pnj-color"))
+            if (a.length) {d.find(".topictitle-image img").attr("src", a)};
+            d.find(".postprofile-avatar img").attr("src", e),
+            d.find(".topic-title strong").text(s),
+            d.find(".postprofile-field-edad .postprofile-field-content").text(t),
+            d.find(".postprofile-field-nacionalidad .postprofile-field-content").text(r),
+            d.find(".postprofile-field-ocupacion .postprofile-field-content").text(i), 
+            "/u2" != d.find(".topic-title a").attr("href") && (d.addClass("usergroup-group-inactivo"), 
+            d.find(".topic-title").append('<span class="pnj-span">Modo PNJ</span>'), d.find(".postprofile-rank").text("PNJ"),
+            d.find(".topic-title a span").addClass("pnj-color"))
     }), $(".modo-cambiar-avatar").length && $(".modo-cambiar-avatar").each(function() {
         var e = $(this).attr("imagen"),
             a = $(this).attr("minimagen"),
@@ -181,3 +189,7 @@ $(document).ready(function() {
         (a -= 100) < 0 && (a = 0), $(".exp").css("left", "-" + a + "%"), 0 == a && ($(this).css("opacity", "0"), $(".exp-img").css("filter", "blur(0)"))
     })
 });
+
+<script type="text/javascript">
+$(document).ready(function(){var e=$("#field_id8 .field_uneditable").text(),i=$("#field_id9 .field_uneditable").text(),t=$("#field_id11 .field_uneditable").text(),a="#field_id5 .field_uneditable",n="#field_id-10 .field_uneditable",p=$("#field_id").html(),r=$("#field_id10 img").attr("src");$(a+" a").length&&($(".profilelinks").append($(a).html()),$(a).empty()),$(n+" a").length&&($(".profilelinks").append($(n).html()),$(n).empty()),$(".rpghab").append(e),$(".rpginv").append(i),$(".rpgstats").append(t),$(".profilelinks").append(p),$("#profileimg").css("background-image","url("+r+")"),$("progress").attr("max","10"),$("progress.pv").attr("max","20"),$("progress.re").attr("max","20"),$("progress").each(function(){var e=$(this).text();$(this).attr("value",e),$(this).before("<span>"+e+"</span>")}),$("#field_id8 .field_uneditable").empty(),$("#field_id9 .field_uneditable").empty(),$("#field_id11 .field_uneditable").empty(),$("#field_id").empty(),$("#field_id10 img").empty();$.getJSON("https://spreadsheets.google.com/feeds/list/1bCddYVOaAla3CMAOT-uEJhHVLcO1Sd8bHBa8wXbbZ18/od6/public/values?alt=json",function(e){$(".rpginv item").each(function(){var i=$(this).attr("indice"),t=$(this).attr("cantidad"),a=$(this);$.each(e.feed.entry,function(e,n){n.gsx$indice.$t==i&&(d=n.gsx$nombre.$t,l=n.gsx$inventario.$t,t<=1||null==t?a.append("<strong>"+d+"</strong>: "+l):a.append("<strong>"+d+"</strong>: (x"+t+") - "+l))})})})});
+</script>

@@ -122,7 +122,7 @@ progress[value]::-webkit-progress-bar {border: none;}
 .userprofile-group-guardian .posterank  { color: var(--guardian);}
 .userprofile-group-hostigador .posterank { color: var(--hostigador);}
 .userprofile-group-orador .posterank { color: var(--orador);}
-.userprofile-group-inactivo .posterank { color: var(--inactivo) !important;} 
+.userprofile-group-inactivo .posterank { color: var(--inactivo) !important;}
 
 .userprofile-group-administrador .rpginv::-webkit-scrollbar-thumb {background: var(--accent);}
 .userprofile-group-narrador .rpginv::-webkit-scrollbar-thumb{background: var(--accent);}
