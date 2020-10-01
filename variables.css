@@ -1684,6 +1684,11 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
 .timeline .bullet.situacion {
     border: 2px solid var(--accent2);
 }
+
+.timeline .bullet.eventos {
+    border: 2px solid var(--guardian);
+}
+
 .timeline .bullet {
     background: #000;
     border-radius: 50%;
@@ -1709,7 +1714,7 @@ div.sceditor-dropdown input, div.sceditor-dropdown textarea {
 margin-top: 9px;
 }
 
-.timeline .desc a{
+.timeline .desc.tramas a{
   color: var(--visionario);
   font-family: Poppins;
   text-transform: uppercase;
@@ -1717,3 +1722,12 @@ margin-top: 9px;
   font-weight: bold;
       line-height: 5px;
 }  
+
+.timeline .desc.eventos a {
+    color: var(--guardian);
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-size: 7pt;
+    font-weight: bold;
+    line-height: 5px;
+}
