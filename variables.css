@@ -1897,6 +1897,10 @@ margin-top: 9px;
   top: -2px;
 }
 
+.reservas-fases div:nth-child(3):after {
+  content: "Fase III";
+}
+
 .usergroup-group-canalizador .reservas-t {  color: var(--canalizador); }
 .usergroup-group-guardian .reservas-t {  color: var(--guardian); }
 .usergroup-group-hostigador .reservas-t { color: var(--hostigador); }
