@@ -1,0 +1,190 @@
+.reservas {
+  border: 1px solid #101010;
+  width: 600px;
+  box-sizing: border-box;
+  padding: 40px;
+  margin: auto;
+}
+.reservas-t {
+  font-family: Poppins;
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: auto;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: -25px;
+}
+.reservas-icon {
+  font-size: 55px;
+  color: var(--grey);
+  opacity: 0.1;
+  position: relative;
+  top: -40px;
+}
+.reservas-stats {
+  margin: auto;
+  width: 450px;
+  display: flex;
+}
+.reservas-s {
+  font-family: Poppins;
+  font-weight: bold;
+  color: var(--accent);
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  margin: auto;
+}
+.reservas-s:after {
+  color: var(--grey);
+  font-family: Roboto Condensed;
+  text-transform: uppercase;
+  font-size: 7pt;
+  text-align: center;
+  content: "PV";
+  display: block;
+  opacity: 0.5;
+}
+.reservas-stats div:nth-child(2):after {
+  content: "RE";
+}
+.reservas-stats div:nth-child(3):after {
+  content: "ATQ";
+}
+.reservas-stats div:nth-child(4):after {
+  content: "ESE";
+}
+.reservas-stats div:nth-child(5):after {
+  content: "FOR";
+}
+.reservas-stats div:nth-child(6):after {
+  content: "ENT";
+}
+.reservas-stats div:nth-child(7):after {
+  content: "DES";
+}
+.reservas-fases {
+  width: 540px;
+  display: flex;
+}
+.reservas-f {
+  font-family: Poppins;
+  font-weight: bold;
+  color: var(--accent);
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  text-transform: uppercase;
+}
+.reservas-f:after {
+  color: var(--grey);
+  font-family: Roboto Condensed;
+  text-transform: uppercase;
+  font-size: 8pt;
+  text-align: center;
+  content: "Fase I";
+  display: block;
+  opacity: 0.5;
+  line-height: 10pt;
+}
+.reservas-fases div:nth-child(2):after {
+  content: "Fase II";
+}
+.reserva-a {
+  width: 74px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 12pt;
+  color: #444444;
+  display: inline-block;
+}
+.reserva-a.off .reserva-n {
+  border-radius: 100%;
+  border: 1px solid #444444;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  line-height: 30px;
+}
+.reserva-a.on .reserva-n {
+  background-color: var(--accent);
+  color: var(--grey);
+  border-radius: 100%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  line-height: 30px;
+}
+.reserva-link {
+  font-family: Roboto Condensed;
+  text-transform: uppercase;
+  font-size: 7pt;
+  line-height: 25px;
+}
+.reserva-a.off .reserva-link a {
+  color: #444444!important;
+}
+.reserva-a.on .reserva-link a {
+  color: var(--accent)!important;
+}
+.reservas-i {
+  font-family: Roboto Condensed;
+  line-height: 15px; 
+  width: 520px;
+  column-count: 2;
+  column-gap: 20px; 
+  color: #636363;
+}
+.reservas-i strong {
+  color: var(--accent);
+  font-size: 8.5pt;
+  text-transform: uppercase;
+  line-height: 10px;
+}
+.reservas-i strong:before {
+  color: #636363;
+  content: "\f111";
+  font-family: FontAwesome;
+  font-size: 3px;
+  margin-right: 2px;
+  position: relative;
+  top: -2px;
+}
+
+.usergroup-group-canalizador .reservas-t {  color: var(--canalizador); }
+.usergroup-group-guardian .reservas-t {  color: var(--guardian); }
+.usergroup-group-hostigador .reservas-t { color: var(--hostigador); }
+.usergroup-group-orador .reservas-t {   color: var(--orador); } 
+
+.usergroup-group-canalizador .reservas-s {  color: var(--canalizador); }
+.usergroup-group-guardian .reservas-s {  color: var(--guardian); }
+.usergroup-group-hostigador .reservas-s { color: var(--hostigador); }
+.usergroup-group-orador .reservas-s {   color: var(--orador); } 
+
+.usergroup-group-canalizador .reservas-f {  color: var(--canalizador); }
+.usergroup-group-guardian .reservas-f {  color: var(--guardian); }
+.usergroup-group-hostigador .reservas-f { color: var(--hostigador); }
+.usergroup-group-orador .reservas-f {   color: var(--orador); } 
+
+.usergroup-group-canalizador .reserva-a.on .reserva-n {  background-color: var(--canalizador); }
+.usergroup-group-guardian .reserva-a.on .reserva-n{  background-color: var(--guardian); }
+.usergroup-group-hostigador .reserva-a.on .reserva-n { background-color: var(--hostigador); }
+.usergroup-group-orador .reserva-a.on .reserva-n {  background-color: var(--orador); } 
+
+.usergroup-group-canalizador .reserva-a.on .reserva-link a {  color: var(--canalizador)!important; }
+.usergroup-group-guardian .reserva-a.on .reserva-link a {  color: var(--guardian)!important; }
+.usergroup-group-hostigador .reserva-a.on .reserva-link a { color: var(--hostigador)!important; }
+.usergroup-group-orador .reserva-a.on .reserva-link a {   color: var(--orador)!important; } 
+
+.usergroup-group-canalizador .reservas-i strong {  color: var(--canalizador); }
+.usergroup-group-guardian .reservas-i strong {  color: var(--guardian); }
+.usergroup-group-hostigador .reservas-i strong { color: var(--hostigador); }
+.usergroup-group-orador .reservas-i strong {   color: var(--orador); } 
