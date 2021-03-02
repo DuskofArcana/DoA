@@ -1929,4 +1929,73 @@ margin-top: 9px;
 .usergroup-group-canalizador .reservas-i strong {  color: var(--canalizador); }
 .usergroup-group-guardian .reservas-i strong {  color: var(--guardian); }
 .usergroup-group-hostigador .reservas-i strong { color: var(--hostigador); }
-.usergroup-group-orador .reservas-i strong {   color: var(--orador); } 
+.usergroup-group-orador .reservas-i strong {   color: var(--orador); }
+
+span[class^="ea-"] {
+    position: relative!important;
+    width: 100%; 
+    cursor: help; 
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 8pt;
+    color: var(--accent); 
+}
+span[class^="ea-"]:after {
+    content: "";
+    width: 200px; 
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+    left: calc(50% - 200px);
+    transform: translateX(50%) translateY(-103%);
+    border: 1px solid #101010;
+    box-sizing: border-box;
+    padding: 10px;
+    color: var(--grey);
+    display: none; 
+    background-color: #070707; 
+    border-radius: 10px;
+    padding: 10px; 
+    font-family: Roboto Condensed;
+    font-size: 8pt;
+    text-transform: none;
+    font-weight: normal;
+    text-align: justify;
+}
+span[class^="ea-"]:hover:after {
+  display: block;
+}
+span.ea-atu:after {
+  content: "El dado de combate del objetivo es negado, adicionalmente, no puede atacar, esquivar por habilidades o esquivar por destreza mientras está afectado.";
+}
+span.ea-con:after {
+  content: "El objetivo ataca a un aliado cercano.";
+}
+span.ea-cog:after {
+  content: "El objetivo no puede atacar mientras esté afectado. Mientras dure el efecto, el objetivo ve reducidas en 1 punto todas sus estadísticas de combate.";
+}
+span.ea-env:after {
+  content: "El objetivo pierde vida constantemente. Mientras dure el efecto, el objetivo no puede aprovechar las subidas de estadísticas por habilidades de cualquier tipo.";
+}
+span.ea-inh:after {
+  content: "El objetivo no puede usar una o varias habilidades activas durante un periodo de tiempo.";
+}
+span.ea-que:after {
+  content: "El objetivo pierde vida constantemente. Mientras dure el efecto, su daño causado por habilidades Físicas o Esencia es reducido en 2.";
+}
+span.ea-san:after {
+  content: "El objetivo pierde vida constantemente. Mientras dure el efecto, todas las curaciones recibidas de habilidades u objetos se reducen a la mitad.";
+}
+span.ea-som:after {
+  content: "El objetivo no puede atacar hasta superar una tirada de dados correspondiente o tras un periodo de tiempo definido.";
+}
+span.ea-imp:after {
+  content: "Todo daño recibido se transforma en 0 mientras se sufra este estado alterado.";
+}
+span.ea-ina:after {
+  content: "Impide que las estadísticas de combate sean alteradas de cualquier manera.";
+}
+span.ea-inv:after {
+  content: "Impide ser afectado por estados alterados negativos.";
+}
