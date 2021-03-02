@@ -821,7 +821,7 @@ font-weight: bold;
   -webkit-box-pack: center;
           justify-content: center;
   -webkit-box-align: center;
-          align-items: center;
+          align-items: flex-start;
   -webkit-box-pack: space-evenly;
           justify-content: space-evenly;
   margin: 0 auto;
@@ -829,7 +829,6 @@ font-weight: bold;
 
 .skill {
   width: 400px;
-  height: 350px;
   text-transform: uppercase;
   color: gray;
   display: -webkit-box;
@@ -947,7 +946,7 @@ font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 12pt;
-  overflow: auto;
+/*  overflow: auto;*/
   height: 200px;
   font-style: italic;
 }
@@ -963,7 +962,7 @@ font-weight: bold;
   left: 0;
   padding-right: 5px;
   white-space: pre-wrap;
-  overflow: auto;
+/*  overflow: auto;*/
 }
 
 .skill-hide {
