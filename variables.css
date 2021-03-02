@@ -946,7 +946,6 @@ font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 12pt;
-/*  overflow: auto;*/
   height: 200px;
   font-style: italic;
 }
@@ -962,7 +961,6 @@ font-weight: bold;
   left: 0;
   padding-right: 5px;
   white-space: pre-wrap;
-/*  overflow: auto;*/
 }
 
 .skill-hide {
