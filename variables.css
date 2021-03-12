@@ -950,7 +950,7 @@ font-weight: bold;
   font-style: italic;
 }
 
-.skill-descrip::-webkit-scrollbar{
+.skill-descrip::-webkit-scrollbar {
 	width: 4px;
 	background-color: #000;
 }
@@ -1928,7 +1928,7 @@ margin-top: 9px;
 .usergroup-group-hostigador .reservas-i strong { color: var(--hostigador); }
 .usergroup-group-orador .reservas-i strong {   color: var(--orador); }
 
-span[class^="ea-"] {
+/*span[class^="ea-"] {
     position: relative!important;
     width: 100%; 
     cursor: help; 
@@ -1995,4 +1995,40 @@ span.ea-ina:after {
 }
 span.ea-inv:after {
   content: "Impide ser afectado por estados alterados negativos.";
+}*/
+
+span[class^="ea-"] {
+  display: inline;
+  width: 100%; 
+  cursor: help; 
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed';
+  font-weight: bold;
+  font-size: 8pt;
+  color: var(--accent); 
+}
+.tippy-box[data-theme~='dusk'] {
+/*  box-sizing: border-box;
+  border-radius: 10px;
+  color: gray;*/
+  color: var(--grey);
+  background-color: #070707;
+  padding: 10px;
+  font-family: Roboto Condensed;
+  font-size: 8pt;
+  text-transform: none;
+  font-weight: normal;
+  text-align: justify;
+}
+.tippy-box[data-theme~='dusk'][data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: #070707;
+}
+.tippy-box[data-theme~='dusk'][data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: #070707;
+}
+.tippy-box[data-theme~='dusk'][data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: #070707;
+}
+.tippy-box[data-theme~='dusk'][data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: #070707;
 }
